@@ -1,0 +1,27 @@
+
+/* add your custom css here */
+
+#pops-chart, svg {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+#pops-chart g {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+#pops-chart text {
+    visibility: hidden;
+    /* rather than display: none, which gets rid of it, visibility: hidden keeps the space for the elements so they can be shown with a tooltip */
+    opacity: 0;
+    font-family: sans-serif;    
+}
+
+#pops-chart .show text {
+    display: block;
+}
+
+
+

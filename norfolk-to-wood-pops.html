@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Norfolk-to-Wood populations</title>
+
+
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Norfolk-to-Wood populations</h1>
+    <p>Testing</p>
+    <div id="pops-chart"></div>
+
+
+    <!-- your JS code that uses d3 to manipulate data -->
+    <script>
+
+    d3.csv("data/norfolk-to-wood-pops.csv")
+    .then(data => {
+
+        const marginTop = 20;
+        const marginRight = 1;
+        const marginBottom = 40;
+        const marginLeft = 40;
+        const marginGap = 2;
+        const rowHeight = 16;
+        const width = 800;
+        const height = rowHeight * data.Year.length + marginTop + marginBottom;
+
+        // create SVG container inside #pops-chart
+        const chart = d3
+            .select('#pops-chart')
+            .append('svg')
+            .attr('width', 800)
+            .attr('height', height)
+
+        // create SVG elements and bind data to them
+        const squares = chart
+            .selectAll('rect')
+            .data(data)
+            .join('rect');
+        
+        
+        // create scales
+        // const x = d3.scaleLinear()
+            // .domain([d3.min(data.)]) FIGURE OUT HOW TO MAKE X AXIS FROM TOWN NAMES
+
+        // position the SVG shapes at the right places
+        const radius = 10;
+
+        squares
+            .attr('x', (d,i) => {
+                return Math.floor(i%10)*(radius*2)+radius;
+            })
+            .attr('y', (d,i) => {
+                return Math.floor(i/10)*(radius*2)+radius;
+            })
+            .attr('width', radius*2 - 1)
+            .attr('height', radius*2 - 1)
+            // .attr('r',radius)
+
+        // Step 8. Encode data onto the SVG shapes
+        squares.style('fill', d=> {
+            if (d.Happiness == '1') {return 'black'}
+            else if (d.Happiness == '2') {return 'grey'}
+            else {return 'gold'}
+            })
+
+        // const gridSize = 15, gap = 2;
+
+        // individualCharts
+        // .attr('x', (d,i) => {
+        //     return Math.floor(i%10)*(gridSize+ gap);
+        // })
+        // .attr('y', (d,i) => {
+        //     return Math.floor(i/10)*(gridSize+ gap);
+        // })
+        // .attr('width', 0)
+        // .attr('height', 0)
+        
+        // // start with grey squares, change the "fill" value
+        // individualCharts.style('fill','lightgrey')
+
+        // Create the Click event with D3: 
+        // d3.select('button#btn')
+        // .on('click', showSquareData)
+
+
+        // const showSquares = function() {
+            
+        //     individualCharts
+        //         .transition()
+        //         .duration(200)
+        //         .attr('width', gridSize)
+        //         .attr('height', gridSize)
+
+        //     d3.select("p").html("Here are the 100 days.")
+
+        // }
+
+        // const showEmotions = function(personID) {
+        //     individualCharts
+        //         .transition()
+        //         .duration(200)
+        //         .style('fill', d=> {
+        //         if (d[personID] == '1') {return 'black'}
+        //         else if (d[personID] == '2') {return 'lightgrey'}
+        //         else {return 'gold'}
+        //         })
+
+        //     d3.select("p")
+        //     .html(function() {
+        //     if (personID == "Happiness") 
+        //         { return "This is the emotional ups and downs of Person 1"}
+        //     else {return "This is the emotional ups and downs of Person 2"}
+        // })
+
+        // }
+
+        // d3.select('button#btn1')
+        // .on('click', showSquares)
+
+        // d3.select('button#btn2')
+        // .on('click', function(){
+        //     showEmotions('Happiness')
+        // })
+
+        // d3.select('button#btn3')
+        // .on('click', function(){
+        //     showEmotions('Happiness_P2')
+        // }) 
+
+    })
+
+
+    </script>
+
+  </body>
+</html>
