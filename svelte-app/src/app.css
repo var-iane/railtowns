@@ -4,66 +4,143 @@
    themes: all;
  }
 
- #illinois-path {
-    stroke: #ffffff;
-    stroke-width: 2;
-    opacity: 0.3;
-  }
+/* layout classes */
 
- #railroad-path {
-    stroke: #ffea00;
-    stroke-width: 6;
-    fill: none;
-    opacity: 0.7;
-  }
+.page-container {
+  @apply w-full min-h-screen;
+}
 
-  .oak {
-    stroke: #FF7549; 
-    stroke-width: 4;
-    /* opacity: 0.7; */
-  }
+.narrative-section {
+  @apply w-full py-6 px-4;
+}
 
-  .text-oak {
-    color: #FF7549;
-  }
+.narrative-content {
+  @apply max-w-3xl mx-auto space-y-6;
+}
 
-  .chestnut {
-    stroke: #3556FC;
-    stroke-width: 4;
-    /* opacity: 0.7; */
-  }
+.scrolly-container {
+  @apply fixed inset-0 z-10;
+  top: 4rem; /* navbar height */
+  height: calc(100vh - 4rem);
+}
 
-  .text-chestnut {
-    color: #3556FC;
-  }
+.scroll-triggers {
+  margin-top: calc(100vh - 4rem);
+}
 
-  .rail {
-    stroke: #ffea00;
-    stroke-width: 2;
-    opacity: 0.7;
-  }
+.two-panel-grid {
+  @apply grid grid-cols-[1fr_400px];
+}
 
-  .text-rail {
-    color: #ffea00;
-    opacity: 0.7;
-  }
+.three-panel-grid {
+  @apply grid grid-cols-[300px_1fr_300px];
+}
 
-  .grid {
-    stroke: #ffffff;
-    opacity: 0.8;
-  }
+.chart-container {
+  @apply w-full h-[600px] bg-base-200 rounded-lg p-4;
+}
 
-  .text-grid {
-    color: #ffffff;
-    opacity: 0.8;
-  }
 
-  .allpaths {
-    stroke: #ffffff;
-    opacity: 0.1;
-  }
+ /* svg classes */
 
-  .text-allpaths {
-    color: #ffffff;
-    opacity: 0.1;
-  }
+#illinois-path {
+  stroke: #ffffff;
+  stroke-width: 2;
+  opacity: 0.3;
+}
+
+#railroad-path {
+  stroke: #ffea00;
+  stroke-width: 4;
+  fill: none;
+  opacity: 0.7;
+}
+
+.oak {
+  stroke: #FF7549; 
+  stroke-width: 5;
+  /* opacity: 0.7; */
+}
+
+.text-oak {
+  color: #FF7549;
+}
+
+.chestnut {
+  stroke: #3556FC;
+  stroke-width: 5;
+  /* opacity: 0.7; */
+}
+
+.text-chestnut {
+  color: #3556FC;
+}
+
+.rail {
+  stroke: #ffea00;
+  stroke-width: 2;
+  opacity: 0.8;
+}
+
+.text-rail {
+  color: #ffea00;
+  opacity: 0.8;
+}
+
+.grid {
+  stroke: #ffffff;
+  stroke-width: 2;
+  opacity: 1;
+}
+
+.text-grid {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.allpaths {
+  stroke: #ffffff;
+  /* stroke-width: 4; */
+  opacity: 0.075;
+}
+
+.text-allpaths {
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+/* champaign-urbana specific */
+
+.town03 .chestnut {
+  stroke-width: 2
+}
+
+.town03 .oak {
+  stroke-width: 2
+}
+
+.town03 .rail {
+  stroke-width: 1.5
+}
+
+.town03 .grid {
+  stroke-width: 0.75
+}
+
+/* centralia specific */
+
+.town07 .chestnut {
+  stroke-width: 3
+}
+
+.town07 .oak {
+  stroke-width: 3
+}
+
+.town07 .rail {
+  stroke-width: 2
+}
+
+.town07 .grid {
+  stroke-width: 0.75
+}

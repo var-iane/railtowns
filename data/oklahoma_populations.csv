@@ -1,0 +1,973 @@
+Name,State,Year,Population,Percent change
+Aline,Oklahoma,1910,303,0.0
+Aline,Oklahoma,1920,358,18.2
+Aline,Oklahoma,1930,429,19.8
+Aline,Oklahoma,1940,405,-5.6
+Aline,Oklahoma,1950,385,-4.9
+Aline,Oklahoma,1960,314,-18.4
+Aline,Oklahoma,1970,260,-17.2
+Aline,Oklahoma,1980,313,20.4
+Aline,Oklahoma,1990,295,-5.8
+Aline,Oklahoma,2000,214,-27.5
+Aline,Oklahoma,2010,207,-3.3
+Aline,Oklahoma,2020,168,-18.8
+Alva,Oklahoma,1900,1499,0.0
+Alva,Oklahoma,1910,3688,146.0
+Alva,Oklahoma,1920,3913,6.1
+Alva,Oklahoma,1930,5121,30.9
+Alva,Oklahoma,1940,5055,-1.3
+Alva,Oklahoma,1950,6505,28.7
+Alva,Oklahoma,1960,6258,-3.8
+Alva,Oklahoma,1970,7440,18.9
+Alva,Oklahoma,1980,6416,-13.8
+Alva,Oklahoma,1990,5495,-14.4
+Alva,Oklahoma,2000,5288,-3.8
+Alva,Oklahoma,2010,4945,-6.5
+Alva,Oklahoma,2020,5028,1.7
+Amorita,Oklahoma,1920,196,0.0
+Amorita,Oklahoma,1930,194,-1.0
+Amorita,Oklahoma,1940,208,7.2
+Amorita,Oklahoma,1950,125,-39.9
+Amorita,Oklahoma,1960,74,-40.8
+Amorita,Oklahoma,1970,63,-14.9
+Amorita,Oklahoma,1980,66,4.8
+Amorita,Oklahoma,1990,56,-15.2
+Amorita,Oklahoma,2000,44,-21.4
+Amorita,Oklahoma,2010,37,-15.9
+Amorita,Oklahoma,2020,38,2.7
+Beaver,Oklahoma,1900,112,0.0
+Beaver,Oklahoma,1910,326,191.1
+Beaver,Oklahoma,1920,920,182.2
+Beaver,Oklahoma,1930,1028,11.7
+Beaver,Oklahoma,1940,1166,13.4
+Beaver,Oklahoma,1950,1495,28.2
+Beaver,Oklahoma,1960,2087,39.6
+Beaver,Oklahoma,1970,1853,-11.2
+Beaver,Oklahoma,1980,1939,4.6
+Beaver,Oklahoma,1990,1584,-18.3
+Beaver,Oklahoma,2000,1570,-0.9
+Beaver,Oklahoma,2010,1515,-3.5
+Beaver,Oklahoma,2020,1280,-15.5
+Billings,Oklahoma,1900,406,0.0
+Billings,Oklahoma,1910,524,29.1
+Billings,Oklahoma,1920,846,61.5
+Billings,Oklahoma,1930,658,-22.2
+Billings,Oklahoma,1940,661,0.5
+Billings,Oklahoma,1950,620,-6.2
+Billings,Oklahoma,1960,510,-17.7
+Billings,Oklahoma,1970,618,21.2
+Billings,Oklahoma,1980,632,2.3
+Billings,Oklahoma,1990,555,-12.2
+Billings,Oklahoma,2000,436,-21.4
+Billings,Oklahoma,2010,509,16.7
+Billings,Oklahoma,2020,578,13.6
+Binger,Oklahoma,1910,280,0.0
+Binger,Oklahoma,1920,482,72.1
+Binger,Oklahoma,1930,849,76.1
+Binger,Oklahoma,1940,840,-1.1
+Binger,Oklahoma,1950,773,-8.0
+Binger,Oklahoma,1960,603,-22.0
+Binger,Oklahoma,1970,730,21.1
+Binger,Oklahoma,1980,791,8.4
+Binger,Oklahoma,1990,724,-8.5
+Binger,Oklahoma,2000,708,-2.2
+Binger,Oklahoma,2010,672,-5.1
+Binger,Oklahoma,2020,438,-34.8
+Blackwell,Oklahoma,1900,2283,0.0
+Blackwell,Oklahoma,1910,3266,43.1
+Blackwell,Oklahoma,1920,7174,119.7
+Blackwell,Oklahoma,1930,9521,32.7
+Blackwell,Oklahoma,1940,8537,-10.3
+Blackwell,Oklahoma,1950,9199,7.8
+Blackwell,Oklahoma,1960,9588,4.2
+Blackwell,Oklahoma,1970,8645,-9.8
+Blackwell,Oklahoma,1980,8400,-2.8
+Blackwell,Oklahoma,1990,7538,-10.3
+Blackwell,Oklahoma,2000,7668,1.7
+Blackwell,Oklahoma,2010,7092,-7.5
+Blackwell,Oklahoma,2020,6085,-14.2
+Bridgeport,Oklahoma,1910,428,0.0
+Bridgeport,Oklahoma,1920,294,-31.3
+Bridgeport,Oklahoma,1930,432,46.9
+Bridgeport,Oklahoma,1940,302,-30.1
+Bridgeport,Oklahoma,1950,199,-34.1
+Bridgeport,Oklahoma,1960,139,-30.2
+Bridgeport,Oklahoma,1970,142,2.2
+Bridgeport,Oklahoma,1980,115,-19.0
+Bridgeport,Oklahoma,1990,137,19.1
+Bridgeport,Oklahoma,2000,109,-20.4
+Bridgeport,Oklahoma,2010,116,6.4
+Bridgeport,Oklahoma,2020,97,-16.4
+Buffalo,Oklahoma,1910,282,0.0
+Buffalo,Oklahoma,1920,479,69.9
+Buffalo,Oklahoma,1930,990,106.7
+Buffalo,Oklahoma,1940,1209,22.1
+Buffalo,Oklahoma,1950,1544,27.7
+Buffalo,Oklahoma,1960,1618,4.8
+Buffalo,Oklahoma,1970,1579,-2.4
+Buffalo,Oklahoma,1980,1381,-12.5
+Buffalo,Oklahoma,1990,1512,9.5
+Buffalo,Oklahoma,2000,1200,-20.6
+Buffalo,Oklahoma,2010,1299,8.3
+Buffalo,Oklahoma,2020,1039,-20.0
+Burbank,Oklahoma,1930,372,0.0
+Burbank,Oklahoma,1940,329,-11.6
+Burbank,Oklahoma,1950,268,-18.5
+Burbank,Oklahoma,1960,238,-11.2
+Burbank,Oklahoma,1970,188,-21.0
+Burbank,Oklahoma,1980,161,-14.4
+Burbank,Oklahoma,1990,165,2.5
+Burbank,Oklahoma,2000,155,-6.1
+Burbank,Oklahoma,2010,141,-9.0
+Burbank,Oklahoma,2020,123,-12.8
+Burlington,Oklahoma,1910,135,0.0
+Burlington,Oklahoma,1920,169,25.2
+Burlington,Oklahoma,1930,166,-1.8
+Burlington,Oklahoma,1940,177,6.6
+Burlington,Oklahoma,1950,181,2.3
+Burlington,Oklahoma,1960,174,-3.9
+Burlington,Oklahoma,1970,165,-5.2
+Burlington,Oklahoma,1980,206,24.8
+Burlington,Oklahoma,1990,169,-18.0
+Burlington,Oklahoma,2000,156,-7.7
+Burlington,Oklahoma,2010,152,-2.6
+Burlington,Oklahoma,2020,124,-18.4
+Butler,Oklahoma,1920,332,0.0
+Butler,Oklahoma,1930,473,42.5
+Butler,Oklahoma,1940,428,-9.5
+Butler,Oklahoma,1950,351,-18.0
+Butler,Oklahoma,1960,351,0.0
+Butler,Oklahoma,1970,315,-10.3
+Butler,Oklahoma,1980,388,23.2
+Butler,Oklahoma,1990,341,-12.1
+Butler,Oklahoma,2000,345,1.2
+Butler,Oklahoma,2010,287,-16.8
+Butler,Oklahoma,2020,208,-27.5
+Byron,Oklahoma,1910,286,0.0
+Byron,Oklahoma,1920,249,-12.9
+Byron,Oklahoma,1930,197,-20.9
+Byron,Oklahoma,1940,177,-10.2
+Byron,Oklahoma,1950,131,-26.0
+Byron,Oklahoma,1960,82,-37.4
+Byron,Oklahoma,1970,72,-12.2
+Byron,Oklahoma,1980,67,-6.9
+Byron,Oklahoma,1990,57,-14.9
+Byron,Oklahoma,2000,45,-21.1
+Byron,Oklahoma,2010,35,-22.2
+Byron,Oklahoma,2020,37,5.7
+Camargo,Oklahoma,1930,291,0.0
+Camargo,Oklahoma,1940,289,-0.7
+Camargo,Oklahoma,1950,315,9.0
+Camargo,Oklahoma,1960,254,-19.4
+Camargo,Oklahoma,1970,236,-7.1
+Camargo,Oklahoma,1980,264,11.9
+Camargo,Oklahoma,1990,185,-29.9
+Camargo,Oklahoma,2000,115,-37.8
+Camargo,Oklahoma,2010,178,54.8
+Camargo,Oklahoma,2020,193,8.4
+Canton,Oklahoma,1910,703,0.0
+Canton,Oklahoma,1920,582,-17.2
+Canton,Oklahoma,1930,797,36.9
+Canton,Oklahoma,1940,775,-2.8
+Canton,Oklahoma,1950,959,23.7
+Canton,Oklahoma,1960,887,-7.5
+Canton,Oklahoma,1970,844,-4.8
+Canton,Oklahoma,1980,854,1.2
+Canton,Oklahoma,1990,632,-26.0
+Canton,Oklahoma,2000,618,-2.2
+Canton,Oklahoma,2010,625,1.1
+Canton,Oklahoma,2020,468,-25.1
+Carmen,Oklahoma,1910,883,0.0
+Carmen,Oklahoma,1920,792,-10.3
+Carmen,Oklahoma,1930,904,14.1
+Carmen,Oklahoma,1940,818,-9.5
+Carmen,Oklahoma,1950,654,-20.0
+Carmen,Oklahoma,1960,533,-18.5
+Carmen,Oklahoma,1970,519,-2.6
+Carmen,Oklahoma,1980,516,-0.6
+Carmen,Oklahoma,1990,459,-11.0
+Carmen,Oklahoma,2000,411,-10.5
+Carmen,Oklahoma,2010,355,-13.6
+Carmen,Oklahoma,2020,360,1.4
+Carnegie,Oklahoma,1910,835,0.0
+Carnegie,Oklahoma,1920,1150,37.7
+Carnegie,Oklahoma,1930,2063,79.4
+Carnegie,Oklahoma,1940,1740,-15.7
+Carnegie,Oklahoma,1950,1719,-1.2
+Carnegie,Oklahoma,1960,1500,-12.7
+Carnegie,Oklahoma,1970,1723,14.9
+Carnegie,Oklahoma,1980,2016,17.0
+Carnegie,Oklahoma,1990,1593,-21.0
+Carnegie,Oklahoma,2000,1637,2.8
+Carnegie,Oklahoma,2010,1723,5.3
+Carnegie,Oklahoma,2020,1430,-17.0
+Carter,Oklahoma,1910,265,0.0
+Carter,Oklahoma,1920,389,46.8
+Carter,Oklahoma,1930,642,65.0
+Carter,Oklahoma,1940,535,-16.7
+Carter,Oklahoma,1950,406,-24.1
+Carter,Oklahoma,1960,364,-10.3
+Carter,Oklahoma,1970,311,-14.6
+Carter,Oklahoma,1980,367,18.0
+Carter,Oklahoma,1990,286,-22.1
+Carter,Oklahoma,2000,254,-11.2
+Carter,Oklahoma,2010,256,0.8
+Carter,Oklahoma,2020,183,-28.5
+Cherokee,Oklahoma,1910,2016,0.0
+Cherokee,Oklahoma,1920,2017,0.0
+Cherokee,Oklahoma,1930,2236,10.9
+Cherokee,Oklahoma,1940,2553,14.2
+Cherokee,Oklahoma,1950,2635,3.2
+Cherokee,Oklahoma,1960,2410,-8.5
+Cherokee,Oklahoma,1970,2119,-12.1
+Cherokee,Oklahoma,1980,2105,-0.7
+Cherokee,Oklahoma,1990,1787,-15.1
+Cherokee,Oklahoma,2000,1630,-8.8
+Cherokee,Oklahoma,2010,1498,-8.1
+Cherokee,Oklahoma,2020,1476,-1.5
+Cheyenne,Oklahoma,1910,468,0.0
+Cheyenne,Oklahoma,1920,400,-14.5
+Cheyenne,Oklahoma,1930,826,106.5
+Cheyenne,Oklahoma,1940,1070,29.5
+Cheyenne,Oklahoma,1950,1133,5.9
+Cheyenne,Oklahoma,1960,930,-17.9
+Cheyenne,Oklahoma,1970,892,-4.1
+Cheyenne,Oklahoma,1980,1207,35.3
+Cheyenne,Oklahoma,1990,948,-21.5
+Cheyenne,Oklahoma,2000,778,-17.9
+Cheyenne,Oklahoma,2010,801,3.0
+Cheyenne,Oklahoma,2020,771,-3.7
+Cleo Springs,Oklahoma,1910,425,0.0
+Cleo Springs,Oklahoma,1920,377,-11.3
+Cleo Springs,Oklahoma,1930,356,-5.6
+Cleo Springs,Oklahoma,1940,386,8.4
+Cleo Springs,Oklahoma,1950,310,-19.7
+Cleo Springs,Oklahoma,1960,236,-23.9
+Cleo Springs,Oklahoma,1970,344,45.8
+Cleo Springs,Oklahoma,1980,514,49.4
+Cleo Springs,Oklahoma,1990,359,-30.2
+Cleo Springs,Oklahoma,2000,326,-9.2
+Cleo Springs,Oklahoma,2010,338,3.7
+Cleo Springs,Oklahoma,2020,287,-15.1
+Crescent,Oklahoma,1900,139,0.0
+Crescent,Oklahoma,1910,903,549.6
+Crescent,Oklahoma,1920,878,-2.8
+Crescent,Oklahoma,1930,1190,35.5
+Crescent,Oklahoma,1940,1301,9.3
+Crescent,Oklahoma,1950,1341,3.1
+Crescent,Oklahoma,1960,1264,-5.7
+Crescent,Oklahoma,1970,1568,24.1
+Crescent,Oklahoma,1980,1651,5.3
+Crescent,Oklahoma,1990,1236,-25.1
+Crescent,Oklahoma,2000,1281,3.6
+Crescent,Oklahoma,2010,1411,10.1
+Crescent,Oklahoma,2020,1299,-7.9
+Deer Creek,Oklahoma,1910,166,0.0
+Deer Creek,Oklahoma,1920,218,31.3
+Deer Creek,Oklahoma,1930,312,43.1
+Deer Creek,Oklahoma,1940,250,-19.9
+Deer Creek,Oklahoma,1950,209,-16.4
+Deer Creek,Oklahoma,1960,215,2.9
+Deer Creek,Oklahoma,1970,203,-5.6
+Deer Creek,Oklahoma,1980,174,-14.3
+Deer Creek,Oklahoma,1990,124,-28.7
+Deer Creek,Oklahoma,2000,147,18.5
+Deer Creek,Oklahoma,2010,130,-11.6
+Deer Creek,Oklahoma,2020,78,-40.0
+Douglas,Oklahoma,1910,132,0.0
+Douglas,Oklahoma,1920,195,47.7
+Douglas,Oklahoma,1930,163,-16.4
+Douglas,Oklahoma,1940,140,-14.1
+Douglas,Oklahoma,1950,114,-18.6
+Douglas,Oklahoma,1960,74,-35.1
+Douglas,Oklahoma,1970,79,6.8
+Douglas,Oklahoma,1980,89,12.7
+Douglas,Oklahoma,1990,55,-38.2
+Douglas,Oklahoma,2000,32,-41.8
+Douglas,Oklahoma,2010,32,0.0
+Douglas,Oklahoma,2020,51,59.4
+Elmer,Oklahoma,1930,288,0.0
+Elmer,Oklahoma,1940,249,-13.5
+Elmer,Oklahoma,1950,145,-41.8
+Elmer,Oklahoma,1960,120,-17.2
+Elmer,Oklahoma,1970,138,15.0
+Elmer,Oklahoma,1980,131,-5.1
+Elmer,Oklahoma,1990,132,0.8
+Elmer,Oklahoma,2000,94,-28.8
+Elmer,Oklahoma,2010,96,2.1
+Elmer,Oklahoma,2020,65,-32.3
+Erick,Oklahoma,1910,915,0.0
+Erick,Oklahoma,1920,971,6.1
+Erick,Oklahoma,1930,2231,129.8
+Erick,Oklahoma,1940,1591,-28.7
+Erick,Oklahoma,1950,1579,-0.8
+Erick,Oklahoma,1960,1342,-15.0
+Erick,Oklahoma,1970,1285,-4.2
+Erick,Oklahoma,1980,1375,7.0
+Erick,Oklahoma,1990,1083,-21.2
+Erick,Oklahoma,2000,1023,-5.5
+Erick,Oklahoma,2010,1052,2.8
+Erick,Oklahoma,2020,1000,-4.9
+Fairfax,Oklahoma,1910,819,0.0
+Fairfax,Oklahoma,1920,1342,63.9
+Fairfax,Oklahoma,1930,2134,59.0
+Fairfax,Oklahoma,1940,2327,9.0
+Fairfax,Oklahoma,1950,2017,-13.3
+Fairfax,Oklahoma,1960,2076,2.9
+Fairfax,Oklahoma,1970,1889,-9.0
+Fairfax,Oklahoma,1980,1949,3.2
+Fairfax,Oklahoma,1990,1749,-10.3
+Fairfax,Oklahoma,2000,1555,-11.1
+Fairfax,Oklahoma,2010,1380,-11.3
+Fairfax,Oklahoma,2020,1136,-17.7
+Fairview,Oklahoma,1910,2020,0.0
+Fairview,Oklahoma,1920,1751,-13.3
+Fairview,Oklahoma,1930,1887,7.8
+Fairview,Oklahoma,1940,1913,1.4
+Fairview,Oklahoma,1950,2411,26.0
+Fairview,Oklahoma,1960,2213,-8.2
+Fairview,Oklahoma,1970,2894,30.8
+Fairview,Oklahoma,1980,3370,16.4
+Fairview,Oklahoma,1990,2936,-12.9
+Fairview,Oklahoma,2000,2733,-6.9
+Fairview,Oklahoma,2010,2579,-5.6
+Fairview,Oklahoma,2020,2740,6.2
+Foraker,Oklahoma,1910,415,0.0
+Foraker,Oklahoma,1920,394,-5.1
+Foraker,Oklahoma,1930,310,-21.3
+Foraker,Oklahoma,1940,222,-28.4
+Foraker,Oklahoma,1950,105,-52.7
+Foraker,Oklahoma,1960,74,-29.5
+Foraker,Oklahoma,1970,52,-29.7
+Foraker,Oklahoma,1980,34,-34.6
+Foraker,Oklahoma,1990,25,-26.5
+Foraker,Oklahoma,2000,23,-8.0
+Foraker,Oklahoma,2010,19,-17.4
+Foraker,Oklahoma,2020,18,-5.3
+Forgan,Oklahoma,1920,582,0.0
+Forgan,Oklahoma,1930,605,4.0
+Forgan,Oklahoma,1940,428,-29.3
+Forgan,Oklahoma,1950,410,-4.2
+Forgan,Oklahoma,1960,532,29.8
+Forgan,Oklahoma,1970,496,-6.8
+Forgan,Oklahoma,1980,611,23.2
+Forgan,Oklahoma,1990,489,-20.0
+Forgan,Oklahoma,2000,532,8.8
+Forgan,Oklahoma,2010,547,2.8
+Forgan,Oklahoma,2020,450,-17.7
+Fort Cobb,Oklahoma,1910,382,0.0
+Fort Cobb,Oklahoma,1920,546,42.9
+Fort Cobb,Oklahoma,1930,827,51.5
+Fort Cobb,Oklahoma,1940,699,-15.5
+Fort Cobb,Oklahoma,1950,665,-4.9
+Fort Cobb,Oklahoma,1960,687,3.3
+Fort Cobb,Oklahoma,1970,722,5.1
+Fort Cobb,Oklahoma,1980,760,5.3
+Fort Cobb,Oklahoma,1990,663,-12.8
+Fort Cobb,Oklahoma,2000,667,0.6
+Fort Cobb,Oklahoma,2010,634,-4.9
+Fort Cobb,Oklahoma,2020,518,-18.3
+Fort Supply,Oklahoma,1910,169,0.0
+Fort Supply,Oklahoma,1920,231,36.7
+Fort Supply,Oklahoma,1930,230,-0.4
+Fort Supply,Oklahoma,1940,414,80.0
+Fort Supply,Oklahoma,1950,293,-29.2
+Fort Supply,Oklahoma,1960,394,34.5
+Fort Supply,Oklahoma,1970,550,39.6
+Fort Supply,Oklahoma,1980,559,1.6
+Fort Supply,Oklahoma,1990,369,-34.0
+Fort Supply,Oklahoma,2000,328,-11.1
+Fort Supply,Oklahoma,2010,330,0.6
+Fort Supply,Oklahoma,2020,317,-3.9
+Freedom,Oklahoma,1930,350,0.0
+Freedom,Oklahoma,1940,364,4.0
+Freedom,Oklahoma,1950,332,-8.8
+Freedom,Oklahoma,1960,268,-19.3
+Freedom,Oklahoma,1970,292,9.0
+Freedom,Oklahoma,1980,339,16.1
+Freedom,Oklahoma,1990,264,-22.1
+Freedom,Oklahoma,2000,271,2.7
+Freedom,Oklahoma,2010,289,6.6
+Freedom,Oklahoma,2020,174,-39.8
+Garber,Oklahoma,1910,382,0.0
+Garber,Oklahoma,1920,1446,278.5
+Garber,Oklahoma,1930,1356,-6.2
+Garber,Oklahoma,1940,1086,-19.9
+Garber,Oklahoma,1950,957,-11.9
+Garber,Oklahoma,1960,905,-5.4
+Garber,Oklahoma,1970,1101,21.7
+Garber,Oklahoma,1980,992,-9.9
+Garber,Oklahoma,1990,959,-3.3
+Garber,Oklahoma,2000,845,-11.9
+Garber,Oklahoma,2010,822,-2.7
+Garber,Oklahoma,2020,725,-11.8
+Gate,Oklahoma,1910,958,0.0
+Gate,Oklahoma,1920,309,-67.7
+Gate,Oklahoma,1930,307,-0.6
+Gate,Oklahoma,1940,243,-20.8
+Gate,Oklahoma,1950,197,-18.9
+Gate,Oklahoma,1960,130,-34.0
+Gate,Oklahoma,1970,151,16.2
+Gate,Oklahoma,1980,146,-3.3
+Gate,Oklahoma,1990,159,8.9
+Gate,Oklahoma,2000,112,-29.6
+Gate,Oklahoma,2010,93,-17.0
+Gate,Oklahoma,2020,60,-35.5
+Gotebo,Oklahoma,1910,740,0.0
+Gotebo,Oklahoma,1920,737,-0.4
+Gotebo,Oklahoma,1930,827,12.2
+Gotebo,Oklahoma,1940,607,-26.6
+Gotebo,Oklahoma,1950,574,-5.4
+Gotebo,Oklahoma,1960,538,-6.3
+Gotebo,Oklahoma,1970,378,-29.7
+Gotebo,Oklahoma,1980,457,20.9
+Gotebo,Oklahoma,1990,370,-19.0
+Gotebo,Oklahoma,2000,272,-26.5
+Gotebo,Oklahoma,2010,226,-16.9
+Gotebo,Oklahoma,2020,174,-23.0
+Gould,Oklahoma,1920,228,0.0
+Gould,Oklahoma,1930,367,61.0
+Gould,Oklahoma,1940,391,6.5
+Gould,Oklahoma,1950,303,-22.5
+Gould,Oklahoma,1960,241,-20.5
+Gould,Oklahoma,1970,368,52.7
+Gould,Oklahoma,1980,318,-13.6
+Gould,Oklahoma,1990,237,-25.5
+Gould,Oklahoma,2000,206,-13.1
+Gould,Oklahoma,2010,141,-31.6
+Gould,Oklahoma,2020,103,-27.0
+Gracemont,Oklahoma,1920,266,0.0
+Gracemont,Oklahoma,1930,394,48.1
+Gracemont,Oklahoma,1940,328,-16.8
+Gracemont,Oklahoma,1950,301,-8.2
+Gracemont,Oklahoma,1960,306,1.7
+Gracemont,Oklahoma,1970,424,38.6
+Gracemont,Oklahoma,1980,503,18.6
+Gracemont,Oklahoma,1990,339,-32.6
+Gracemont,Oklahoma,2000,336,-0.9
+Gracemont,Oklahoma,2010,318,-5.4
+Gracemont,Oklahoma,2020,279,-12.3
+Grainola,Oklahoma,1930,197,0.0
+Grainola,Oklahoma,1940,157,-20.3
+Grainola,Oklahoma,1950,79,-49.7
+Grainola,Oklahoma,1960,67,-15.2
+Grainola,Oklahoma,1970,66,-1.5
+Grainola,Oklahoma,1980,67,1.5
+Grainola,Oklahoma,1990,58,-13.4
+Grainola,Oklahoma,2000,31,-46.6
+Grainola,Oklahoma,2010,31,0.0
+Grainola,Oklahoma,2020,31,0.0
+Granite,Oklahoma,1910,1229,0.0
+Granite,Oklahoma,1920,912,-25.8
+Granite,Oklahoma,1930,1341,47.0
+Granite,Oklahoma,1940,1058,-21.1
+Granite,Oklahoma,1950,1096,3.6
+Granite,Oklahoma,1960,952,-13.1
+Granite,Oklahoma,1970,1808,89.9
+Granite,Oklahoma,1980,1617,-10.6
+Granite,Oklahoma,1990,1844,14.0
+Granite,Oklahoma,2000,1844,0.0
+Granite,Oklahoma,2010,2065,12.0
+Granite,Oklahoma,2020,1628,-21.2
+Hammon,Oklahoma,1920,440,0.0
+Hammon,Oklahoma,1930,736,67.3
+Hammon,Oklahoma,1940,705,-4.2
+Hammon,Oklahoma,1950,621,-11.9
+Hammon,Oklahoma,1960,656,5.6
+Hammon,Oklahoma,1970,677,3.2
+Hammon,Oklahoma,1980,866,27.9
+Hammon,Oklahoma,1990,611,-29.4
+Hammon,Oklahoma,2000,469,-23.2
+Hammon,Oklahoma,2010,568,21.1
+Hammon,Oklahoma,2020,479,-15.7
+Hillsdale,Oklahoma,1910,226,0.0
+Hillsdale,Oklahoma,1920,209,-7.5
+Hillsdale,Oklahoma,1930,173,-17.2
+Hillsdale,Oklahoma,1940,131,-24.3
+Hillsdale,Oklahoma,1950,104,-20.6
+Hillsdale,Oklahoma,1960,60,-42.3
+Hillsdale,Oklahoma,1970,77,28.3
+Hillsdale,Oklahoma,1980,110,42.9
+Hillsdale,Oklahoma,1990,96,-12.7
+Hillsdale,Oklahoma,2000,101,5.2
+Hillsdale,Oklahoma,2010,121,19.8
+Hillsdale,Oklahoma,2020,75,-38.0
+Hitchcock,Oklahoma,1910,275,0.0
+Hitchcock,Oklahoma,1920,281,2.2
+Hitchcock,Oklahoma,1930,246,-12.5
+Hitchcock,Oklahoma,1940,222,-9.8
+Hitchcock,Oklahoma,1950,166,-25.2
+Hitchcock,Oklahoma,1960,134,-19.3
+Hitchcock,Oklahoma,1970,160,19.4
+Hitchcock,Oklahoma,1980,172,7.5
+Hitchcock,Oklahoma,1990,139,-19.2
+Hitchcock,Oklahoma,2000,141,1.4
+Hitchcock,Oklahoma,2010,121,-14.2
+Hitchcock,Oklahoma,2020,102,-15.7
+Hobart,Oklahoma,1910,3845,0.0
+Hobart,Oklahoma,1920,2936,-23.6
+Hobart,Oklahoma,1930,4982,69.7
+Hobart,Oklahoma,1940,5380,8.0
+Hobart,Oklahoma,1950,5132,-4.6
+Hobart,Oklahoma,1960,5132,0.0
+Hobart,Oklahoma,1970,4638,-9.6
+Hobart,Oklahoma,1980,4735,2.1
+Hobart,Oklahoma,1990,4305,-9.1
+Hobart,Oklahoma,2000,3997,-7.2
+Hobart,Oklahoma,2010,3756,-6.0
+Hobart,Oklahoma,2020,3413,-9.1
+Hollis,Oklahoma,1910,964,0.0
+Hollis,Oklahoma,1920,1683,74.6
+Hollis,Oklahoma,1930,2914,73.1
+Hollis,Oklahoma,1940,2732,-6.2
+Hollis,Oklahoma,1950,3089,13.1
+Hollis,Oklahoma,1960,3089,0.0
+Hollis,Oklahoma,1970,3150,2.0
+Hollis,Oklahoma,1980,2958,-6.1
+Hollis,Oklahoma,1990,2643,-10.6
+Hollis,Oklahoma,2000,2264,-14.3
+Hollis,Oklahoma,2010,2060,-9.0
+Hollis,Oklahoma,2020,1795,-12.9
+Hunter,Oklahoma,1910,341,0.0
+Hunter,Oklahoma,1920,443,29.9
+Hunter,Oklahoma,1930,336,-24.2
+Hunter,Oklahoma,1940,443,31.8
+Hunter,Oklahoma,1950,279,-37.0
+Hunter,Oklahoma,1960,203,-27.2
+Hunter,Oklahoma,1970,274,35.0
+Hunter,Oklahoma,1980,276,0.7
+Hunter,Oklahoma,1990,218,-21.0
+Hunter,Oklahoma,2000,173,-20.6
+Hunter,Oklahoma,2010,165,-4.6
+Hunter,Oklahoma,2020,145,-12.1
+Hydro,Oklahoma,1910,562,0.0
+Hydro,Oklahoma,1920,686,22.1
+Hydro,Oklahoma,1930,948,38.2
+Hydro,Oklahoma,1940,759,-19.9
+Hydro,Oklahoma,1950,714,-5.9
+Hydro,Oklahoma,1960,697,-2.4
+Hydro,Oklahoma,1970,805,15.5
+Hydro,Oklahoma,1980,938,16.5
+Hydro,Oklahoma,1990,977,4.2
+Hydro,Oklahoma,2000,1060,8.5
+Hydro,Oklahoma,2010,969,-8.6
+Hydro,Oklahoma,2020,927,-4.3
+Jet,Oklahoma,1910,365,0.0
+Jet,Oklahoma,1920,370,1.4
+Jet,Oklahoma,1930,389,5.1
+Jet,Oklahoma,1940,442,13.6
+Jet,Oklahoma,1950,371,-16.1
+Jet,Oklahoma,1960,339,-8.6
+Jet,Oklahoma,1970,317,-6.5
+Jet,Oklahoma,1980,352,11.0
+Jet,Oklahoma,1990,272,-22.7
+Jet,Oklahoma,2000,230,-15.4
+Jet,Oklahoma,2010,213,-7.4
+Jet,Oklahoma,2020,197,-7.5
+Kaw City,Oklahoma,1910,595,0.0
+Kaw City,Oklahoma,1920,627,5.4
+Kaw City,Oklahoma,1930,1001,59.6
+Kaw City,Oklahoma,1940,809,-19.2
+Kaw City,Oklahoma,1950,561,-30.7
+Kaw City,Oklahoma,1960,457,-18.5
+Kaw City,Oklahoma,1970,283,-38.1
+Kaw City,Oklahoma,1980,283,0.0
+Kaw City,Oklahoma,1990,314,11.0
+Kaw City,Oklahoma,2000,372,18.5
+Kaw City,Oklahoma,2010,375,0.8
+Kaw City,Oklahoma,2020,325,-13.3
+Knowles,Oklahoma,1930,219,0.0
+Knowles,Oklahoma,1940,104,-52.5
+Knowles,Oklahoma,1950,91,-12.5
+Knowles,Oklahoma,1960,62,-31.9
+Knowles,Oklahoma,1970,52,-16.1
+Knowles,Oklahoma,1980,44,-15.4
+Knowles,Oklahoma,1990,18,-59.1
+Knowles,Oklahoma,2000,32,77.8
+Knowles,Oklahoma,2010,11,-65.6
+Knowles,Oklahoma,2020,6,-45.5
+Lahoma,Oklahoma,1910,275,0.0
+Lahoma,Oklahoma,1920,262,-4.7
+Lahoma,Oklahoma,1930,197,-24.8
+Lahoma,Oklahoma,1940,195,-1.0
+Lahoma,Oklahoma,1950,190,-2.6
+Lahoma,Oklahoma,1960,160,-15.8
+Lahoma,Oklahoma,1970,299,86.9
+Lahoma,Oklahoma,1980,537,79.6
+Lahoma,Oklahoma,1990,645,20.1
+Lahoma,Oklahoma,2000,577,-10.5
+Lahoma,Oklahoma,2010,611,5.9
+Lahoma,Oklahoma,2020,539,-11.8
+Lambert,Oklahoma,1910,127,0.0
+Lambert,Oklahoma,1920,130,2.4
+Lambert,Oklahoma,1930,116,-10.8
+Lambert,Oklahoma,1940,99,-14.7
+Lambert,Oklahoma,1950,55,-44.4
+Lambert,Oklahoma,1960,21,-61.8
+Lambert,Oklahoma,1970,16,-23.8
+Lambert,Oklahoma,1980,20,25.0
+Lambert,Oklahoma,1990,11,-45.0
+Lambert,Oklahoma,2000,9,-18.2
+Lambert,Oklahoma,2010,6,-33.3
+Lambert,Oklahoma,2020,5,-16.7
+Lamont,Oklahoma,1910,593,0.0
+Lamont,Oklahoma,1920,586,-1.2
+Lamont,Oklahoma,1930,554,-5.5
+Lamont,Oklahoma,1940,577,4.2
+Lamont,Oklahoma,1950,594,2.9
+Lamont,Oklahoma,1960,543,-8.6
+Lamont,Oklahoma,1970,478,-12.0
+Lamont,Oklahoma,1980,571,19.5
+Lamont,Oklahoma,1990,454,-20.5
+Lamont,Oklahoma,2000,465,2.4
+Lamont,Oklahoma,2010,417,-10.3
+Lamont,Oklahoma,2020,301,-27.8
+Laverne,Oklahoma,1920,476,0.0
+Laverne,Oklahoma,1930,903,89.7
+Laverne,Oklahoma,1940,816,-9.6
+Laverne,Oklahoma,1950,1269,55.5
+Laverne,Oklahoma,1960,1937,52.6
+Laverne,Oklahoma,1970,1337,-31.0
+Laverne,Oklahoma,1980,1563,16.9
+Laverne,Oklahoma,1990,1269,-18.8
+Laverne,Oklahoma,2000,1097,-13.6
+Laverne,Oklahoma,2010,1344,22.5
+Laverne,Oklahoma,2020,1223,-9.0
+Leedey,Oklahoma,1920,468,0.0
+Leedey,Oklahoma,1930,646,38.0
+Leedey,Oklahoma,1940,574,-11.1
+Leedey,Oklahoma,1950,558,-2.8
+Leedey,Oklahoma,1960,451,-19.2
+Leedey,Oklahoma,1970,465,3.1
+Leedey,Oklahoma,1980,499,7.3
+Leedey,Oklahoma,1990,468,-6.2
+Leedey,Oklahoma,2000,345,-26.3
+Leedey,Oklahoma,2010,435,26.1
+Leedey,Oklahoma,2020,415,-4.6
+Lone Wolf,Oklahoma,1910,677,0.0
+Lone Wolf,Oklahoma,1920,657,-3.0
+Lone Wolf,Oklahoma,1930,1023,55.7
+Lone Wolf,Oklahoma,1940,783,-23.5
+Lone Wolf,Oklahoma,1950,660,-15.7
+Lone Wolf,Oklahoma,1960,617,-6.5
+Lone Wolf,Oklahoma,1970,584,-5.3
+Lone Wolf,Oklahoma,1980,613,5.0
+Lone Wolf,Oklahoma,1990,576,-6.0
+Lone Wolf,Oklahoma,2000,500,-13.2
+Lone Wolf,Oklahoma,2010,438,-12.4
+Lone Wolf,Oklahoma,2020,373,-14.8
+Longdale,Oklahoma,1910,296,0.0
+Longdale,Oklahoma,1920,308,4.1
+Longdale,Oklahoma,1930,284,-7.8
+Longdale,Oklahoma,1940,291,2.5
+Longdale,Oklahoma,1950,277,-4.8
+Longdale,Oklahoma,1960,218,-21.3
+Longdale,Oklahoma,1970,331,51.8
+Longdale,Oklahoma,1980,405,22.4
+Longdale,Oklahoma,1990,281,-30.6
+Longdale,Oklahoma,2000,310,10.3
+Longdale,Oklahoma,2010,262,-15.5
+Longdale,Oklahoma,2020,186,-29.0
+Lookeba,Oklahoma,1910,217,0.0
+Lookeba,Oklahoma,1920,240,10.6
+Lookeba,Oklahoma,1930,312,30.0
+Lookeba,Oklahoma,1940,279,-10.6
+Lookeba,Oklahoma,1950,206,-26.2
+Lookeba,Oklahoma,1960,158,-23.3
+Lookeba,Oklahoma,1970,165,4.4
+Lookeba,Oklahoma,1980,221,33.9
+Lookeba,Oklahoma,1990,141,-36.2
+Lookeba,Oklahoma,2000,131,-7.1
+Lookeba,Oklahoma,2010,166,26.7
+Lookeba,Oklahoma,2020,78,-53.0
+Manchester,Oklahoma,1900,158,0.0
+Manchester,Oklahoma,1910,271,71.5
+Manchester,Oklahoma,1920,237,-12.5
+Manchester,Oklahoma,1930,281,18.6
+Manchester,Oklahoma,1940,269,-4.3
+Manchester,Oklahoma,1950,190,-29.4
+Manchester,Oklahoma,1960,162,-14.7
+Manchester,Oklahoma,1970,165,1.9
+Manchester,Oklahoma,1980,146,-11.5
+Manchester,Oklahoma,1990,106,-27.4
+Manchester,Oklahoma,2000,104,-1.9
+Manchester,Oklahoma,2010,103,-1.0
+Manchester,Oklahoma,2020,90,-12.6
+Mangum,Oklahoma,1910,3067,0.0
+Mangum,Oklahoma,1920,3405,11.0
+Mangum,Oklahoma,1930,4806,41.1
+Mangum,Oklahoma,1940,4193,-12.8
+Mangum,Oklahoma,1950,4271,1.9
+Mangum,Oklahoma,1960,3950,-7.5
+Mangum,Oklahoma,1970,4066,2.9
+Mangum,Oklahoma,1980,3833,-5.7
+Mangum,Oklahoma,1990,3344,-12.8
+Mangum,Oklahoma,2000,2924,-12.6
+Mangum,Oklahoma,2010,3010,2.9
+Mangum,Oklahoma,2020,2762,-8.2
+Marshall,Oklahoma,1910,622,0.0
+Marshall,Oklahoma,1920,434,-30.2
+Marshall,Oklahoma,1930,695,60.1
+Marshall,Oklahoma,1940,382,-45.0
+Marshall,Oklahoma,1950,386,1.0
+Marshall,Oklahoma,1960,363,-6.0
+Marshall,Oklahoma,1970,420,15.7
+Marshall,Oklahoma,1980,372,-11.4
+Marshall,Oklahoma,1990,288,-22.6
+Marshall,Oklahoma,2000,258,-10.4
+Marshall,Oklahoma,2010,272,5.4
+Marshall,Oklahoma,2020,210,-22.8
+Martha,Oklahoma,1930,327,0.0
+Martha,Oklahoma,1940,242,-26.0
+Martha,Oklahoma,1950,222,-8.3
+Martha,Oklahoma,1960,243,9.5
+Martha,Oklahoma,1970,268,10.3
+Martha,Oklahoma,1980,219,-18.3
+Martha,Oklahoma,1990,217,-0.9
+Martha,Oklahoma,2000,205,-5.5
+Martha,Oklahoma,2010,162,-21.0
+Martha,Oklahoma,2020,162,0.0
+May,Oklahoma,1920,324,0.0
+May,Oklahoma,1930,258,-20.4
+May,Oklahoma,1940,239,-7.4
+May,Oklahoma,1950,143,-40.2
+May,Oklahoma,1970,91,0.0
+May,Oklahoma,1990,42,0.0
+May,Oklahoma,2000,33,-21.4
+May,Oklahoma,2010,39,18.2
+May,Oklahoma,2020,29,-25.6
+Medford,Oklahoma,1900,551,0.0
+Medford,Oklahoma,1910,1110,101.5
+Medford,Oklahoma,1920,1050,-5.4
+Medford,Oklahoma,1930,1084,3.2
+Medford,Oklahoma,1940,1121,3.4
+Medford,Oklahoma,1950,1350,20.4
+Medford,Oklahoma,1960,1223,-9.4
+Medford,Oklahoma,1970,1304,6.6
+Medford,Oklahoma,1980,1419,8.8
+Medford,Oklahoma,1990,1172,-17.4
+Medford,Oklahoma,2000,1172,0.0
+Medford,Oklahoma,2010,996,-15.0
+Medford,Oklahoma,2020,932,-6.4
+Meno,Oklahoma,1910,69,0.0
+Meno,Oklahoma,1920,92,33.3
+Meno,Oklahoma,1930,96,4.3
+Meno,Oklahoma,1940,180,87.5
+Meno,Oklahoma,1950,76,-57.8
+Meno,Oklahoma,1960,118,55.3
+Meno,Oklahoma,1970,119,0.8
+Meno,Oklahoma,1980,171,43.7
+Meno,Oklahoma,1990,155,-9.4
+Meno,Oklahoma,2000,195,25.8
+Meno,Oklahoma,2010,235,20.5
+Meno,Oklahoma,2020,198,-15.7
+Mountain View,Oklahoma,1910,855,0.0
+Mountain View,Oklahoma,1920,917,7.3
+Mountain View,Oklahoma,1930,1025,11.8
+Mountain View,Oklahoma,1940,1075,4.9
+Mountain View,Oklahoma,1950,1009,-6.1
+Mountain View,Oklahoma,1960,864,-14.4
+Mountain View,Oklahoma,1970,1110,28.5
+Mountain View,Oklahoma,1980,1189,7.1
+Mountain View,Oklahoma,1990,1086,-8.7
+Mountain View,Oklahoma,2000,880,-19.0
+Mountain View,Oklahoma,2010,795,-9.7
+Mountain View,Oklahoma,2020,740,-6.9
+Nash,Oklahoma,1910,348,0.0
+Nash,Oklahoma,1920,439,26.1
+Nash,Oklahoma,1930,412,-6.2
+Nash,Oklahoma,1940,348,-15.5
+Nash,Oklahoma,1950,290,-16.7
+Nash,Oklahoma,1960,230,-20.7
+Nash,Oklahoma,1970,294,27.8
+Nash,Oklahoma,1980,301,2.4
+Nash,Oklahoma,1990,281,-6.6
+Nash,Oklahoma,2000,224,-20.3
+Nash,Oklahoma,2010,204,-8.9
+Nash,Oklahoma,2020,192,-5.9
+Newkirk,Oklahoma,1900,1754,0.0
+Newkirk,Oklahoma,1910,1992,13.6
+Newkirk,Oklahoma,1920,2533,27.2
+Newkirk,Oklahoma,1930,2135,-15.7
+Newkirk,Oklahoma,1940,2283,6.9
+Newkirk,Oklahoma,1950,2201,-3.6
+Newkirk,Oklahoma,1960,2092,-5.0
+Newkirk,Oklahoma,1970,2173,3.9
+Newkirk,Oklahoma,1980,2413,11.0
+Newkirk,Oklahoma,1990,2168,-10.2
+Newkirk,Oklahoma,2000,2243,3.5
+Newkirk,Oklahoma,2010,2317,3.3
+Newkirk,Oklahoma,2020,2172,-6.3
+North Enid,Oklahoma,1900,205,0.0
+North Enid,Oklahoma,1910,128,-37.6
+North Enid,Oklahoma,1920,95,-25.8
+North Enid,Oklahoma,1930,165,73.7
+North Enid,Oklahoma,1940,166,0.6
+North Enid,Oklahoma,1950,219,31.9
+North Enid,Oklahoma,1960,286,30.6
+North Enid,Oklahoma,1970,730,155.2
+North Enid,Oklahoma,1980,992,35.9
+North Enid,Oklahoma,1990,874,-11.9
+North Enid,Oklahoma,2000,796,-8.9
+North Enid,Oklahoma,2010,860,8.0
+North Enid,Oklahoma,2020,1003,16.6
+Oakwood,Oklahoma,1910,199,0.0
+Oakwood,Oklahoma,1920,224,12.6
+Oakwood,Oklahoma,1930,266,18.8
+Oakwood,Oklahoma,1940,233,-12.4
+Oakwood,Oklahoma,1950,161,-30.9
+Oakwood,Oklahoma,1960,122,-24.2
+Oakwood,Oklahoma,1970,129,5.7
+Oakwood,Oklahoma,1980,140,8.5
+Oakwood,Oklahoma,1990,107,-23.6
+Oakwood,Oklahoma,2000,72,-32.7
+Oakwood,Oklahoma,2010,65,-9.7
+Oakwood,Oklahoma,2020,74,13.8
+Okeene,Oklahoma,1910,920,0.0
+Okeene,Oklahoma,1920,1084,17.8
+Okeene,Oklahoma,1930,1035,-4.5
+Okeene,Oklahoma,1940,1079,4.3
+Okeene,Oklahoma,1950,1170,8.4
+Okeene,Oklahoma,1960,1164,-0.5
+Okeene,Oklahoma,1970,1421,22.1
+Okeene,Oklahoma,1980,1601,12.7
+Okeene,Oklahoma,1990,1343,-16.1
+Okeene,Oklahoma,2000,1240,-7.7
+Okeene,Oklahoma,2010,1204,-2.9
+Okeene,Oklahoma,2020,1090,-9.5
+Ralston,Oklahoma,1910,597,0.0
+Ralston,Oklahoma,1920,703,17.8
+Ralston,Oklahoma,1930,725,3.1
+Ralston,Oklahoma,1940,621,-14.3
+Ralston,Oklahoma,1950,416,-33.0
+Ralston,Oklahoma,1960,411,-1.2
+Ralston,Oklahoma,1970,443,7.8
+Ralston,Oklahoma,1980,495,11.7
+Ralston,Oklahoma,1990,405,-18.2
+Ralston,Oklahoma,2000,355,-12.3
+Ralston,Oklahoma,2010,330,-7.0
+Ralston,Oklahoma,2020,266,-19.4
+Reydon,Oklahoma,1930,216,0.0
+Reydon,Oklahoma,1940,311,44.0
+Reydon,Oklahoma,1950,331,6.4
+Reydon,Oklahoma,1960,183,-44.7
+Reydon,Oklahoma,1970,215,17.5
+Reydon,Oklahoma,1980,252,17.2
+Reydon,Oklahoma,1990,200,-20.6
+Reydon,Oklahoma,2000,177,-11.5
+Reydon,Oklahoma,2010,210,18.6
+Reydon,Oklahoma,2020,137,-34.8
+Ringwood,Oklahoma,1910,271,0.0
+Ringwood,Oklahoma,1920,225,-17.0
+Ringwood,Oklahoma,1930,265,17.8
+Ringwood,Oklahoma,1940,288,8.7
+Ringwood,Oklahoma,1950,331,14.9
+Ringwood,Oklahoma,1960,232,-29.9
+Ringwood,Oklahoma,1970,241,3.9
+Ringwood,Oklahoma,1980,389,61.4
+Ringwood,Oklahoma,1990,394,1.3
+Ringwood,Oklahoma,2000,424,7.6
+Ringwood,Oklahoma,2010,497,17.2
+Ringwood,Oklahoma,2020,401,-19.3
+Rosston,Oklahoma,1920,181,0.0
+Rosston,Oklahoma,1930,185,2.2
+Rosston,Oklahoma,1940,143,-22.7
+Rosston,Oklahoma,1950,85,-40.6
+Rosston,Oklahoma,1960,58,-31.8
+Rosston,Oklahoma,1970,56,-3.4
+Rosston,Oklahoma,1980,66,17.9
+Rosston,Oklahoma,1990,54,-18.2
+Rosston,Oklahoma,2000,66,22.2
+Rosston,Oklahoma,2010,31,-53.0
+Rosston,Oklahoma,2020,52,67.7
+Sharon,Oklahoma,1930,227,0.0
+Sharon,Oklahoma,1940,226,-0.4
+Sharon,Oklahoma,1950,133,-41.2
+Sharon,Oklahoma,1960,97,-27.1
+Sharon,Oklahoma,1970,155,59.8
+Sharon,Oklahoma,1980,171,10.3
+Sharon,Oklahoma,1990,108,-36.8
+Sharon,Oklahoma,2000,122,13.0
+Sharon,Oklahoma,2010,135,10.7
+Sharon,Oklahoma,2020,133,-1.5
+Strong City,Oklahoma,1920,350,0.0
+Strong City,Oklahoma,1930,353,0.9
+Strong City,Oklahoma,1940,245,-30.6
+Strong City,Oklahoma,1950,107,-56.3
+Strong City,Oklahoma,1960,51,-52.3
+Strong City,Oklahoma,1970,40,-21.6
+Strong City,Oklahoma,1980,56,40.0
+Strong City,Oklahoma,1990,49,-12.5
+Strong City,Oklahoma,2000,42,-14.3
+Strong City,Oklahoma,2010,47,11.9
+Strong City,Oklahoma,2020,33,-29.8
+Texola,Oklahoma,1910,361,0.0
+Texola,Oklahoma,1920,298,-17.5
+Texola,Oklahoma,1930,581,95.0
+Texola,Oklahoma,1940,337,-42.0
+Texola,Oklahoma,1950,265,-21.4
+Texola,Oklahoma,1960,202,-23.8
+Texola,Oklahoma,1970,144,-28.7
+Texola,Oklahoma,1980,106,-26.4
+Texola,Oklahoma,1990,45,-57.5
+Texola,Oklahoma,2000,47,4.4
+Texola,Oklahoma,2010,36,-23.4
+Texola,Oklahoma,2020,43,19.4
+Thomas,Oklahoma,1910,1371,0.0
+Thomas,Oklahoma,1920,1223,-10.8
+Thomas,Oklahoma,1930,1256,2.7
+Thomas,Oklahoma,1940,1220,-2.9
+Thomas,Oklahoma,1950,1171,-4.0
+Thomas,Oklahoma,1960,1211,3.4
+Thomas,Oklahoma,1970,1336,10.3
+Thomas,Oklahoma,1980,1515,13.4
+Thomas,Oklahoma,1990,1246,-17.8
+Thomas,Oklahoma,2000,1238,-0.6
+Thomas,Oklahoma,2010,1181,-4.6
+Thomas,Oklahoma,2020,1143,-3.2
+Tonkawa,Oklahoma,1900,707,0.0
+Tonkawa,Oklahoma,1910,1776,151.2
+Tonkawa,Oklahoma,1920,1448,-18.5
+Tonkawa,Oklahoma,1930,3311,128.7
+Tonkawa,Oklahoma,1940,3197,-3.4
+Tonkawa,Oklahoma,1950,3643,14.0
+Tonkawa,Oklahoma,1960,3415,-6.3
+Tonkawa,Oklahoma,1970,3337,-2.3
+Tonkawa,Oklahoma,1980,3524,5.6
+Tonkawa,Oklahoma,1990,3127,-11.3
+Tonkawa,Oklahoma,2000,3162,1.1
+Tonkawa,Oklahoma,2010,3216,1.7
+Tonkawa,Oklahoma,2020,3015,-6.2
+Vici,Oklahoma,1930,482,0.0
+Vici,Oklahoma,1940,257,-46.7
+Vici,Oklahoma,1950,261,1.6
+Vici,Oklahoma,1960,456,74.7
+Vici,Oklahoma,1970,588,28.9
+Vici,Oklahoma,1980,928,57.8
+Vici,Oklahoma,1990,880,-5.2
+Vici,Oklahoma,2000,668,-24.1
+Vici,Oklahoma,2010,699,4.6
+Vici,Oklahoma,2020,611,-12.6
+Wakita,Oklahoma,1910,405,0.0
+Wakita,Oklahoma,1920,338,-16.5
+Wakita,Oklahoma,1930,317,-6.2
+Wakita,Oklahoma,1940,444,40.1
+Wakita,Oklahoma,1950,440,-0.9
+Wakita,Oklahoma,1960,452,2.7
+Wakita,Oklahoma,1970,545,20.6
+Wakita,Oklahoma,1980,526,-3.5
+Wakita,Oklahoma,1990,453,-13.9
+Wakita,Oklahoma,2000,420,-7.3
+Wakita,Oklahoma,2010,344,-18.1
+Wakita,Oklahoma,2020,311,-9.6
+Willow,Oklahoma,1920,286,0.0
+Willow,Oklahoma,1930,347,21.3
+Willow,Oklahoma,1940,248,-28.5
+Willow,Oklahoma,1950,223,-10.1
+Willow,Oklahoma,1960,187,-16.1
+Willow,Oklahoma,1970,188,0.5
+Willow,Oklahoma,1980,162,-13.8
+Willow,Oklahoma,1990,142,-12.3
+Willow,Oklahoma,2000,114,-19.7
+Willow,Oklahoma,2010,149,30.7
+Willow,Oklahoma,2020,119,-20.1
