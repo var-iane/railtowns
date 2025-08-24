@@ -1,7 +1,7 @@
 <script>
 	import favicon from '$lib/assets/favicon.svg';
 	import { page } from '$app/stores';
-	import { base } from '$app.paths';
+	import { base } from '$app/paths';
 
   $: path = $page.url.pathname;
 
