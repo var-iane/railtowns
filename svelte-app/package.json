@@ -31,6 +31,7 @@
 		"d3-scale": "^4.0.2",
 		"d3-scale-chromatic": "^3.1.0",
 		"daisyui": "^5.0.50",
+		"gsap": "^3.13.0",
 		"layercake": "^8.4.4",
 		"tailwindcss": "^4.1.11"
 	}
