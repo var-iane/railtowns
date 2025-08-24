@@ -18,11 +18,6 @@
 
     <p class="text-lg">It's told in three parts. Use the nav bar at the top!</p>
 
-  <div class="space-y-2">
-    <a href="/1-gridtowns" class="btn btn-soft btn-primary w-full">Grid Towns</a>
-    <a href="/2-railtowns" class="btn btn-soft btn-secondary w-full">Railroad Towns</a>
-    <a href="/3-ghosttowns" class="btn btn-soft btn-accent w-full">Ghost Towns</a>
-  </div>
   </div>
 </section>
 </div>
