@@ -1,8 +1,43 @@
+
+@import url('@fontsource-variable/inconsolata');
+@import url('@fontsource/m-plus-rounded-1c/300.css');
+@import url('@fontsource/reddit-sans/300.css');
+@import url('@fontsource-variable/space-grotesk');
+@import url('@fontsource/krub/200.css');
+@import url('@fontsource/krub/300.css');
+@import url('@fontsource/krub/400.css');
+@import url('@fontsource/krub/500.css');
+@import url('@fontsource-variable/rethink-sans');
+@import url('@fontsource/young-serif');
+
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
+  --font-serif: 'Young Serif', 'Lora', serif;
+  --font-inconsolata: 'Inconsolata Variable', monospace;
+}
+
 @plugin "daisyui" {
    themes: all;
  }
+
+ @plugin "daisyui/theme" {
+  name: "abyss";
+  default: true;
+  /* --color-base-100: oklch(13% 0.028 261.692) */
+  --color-base-content: oklch(0.98 0.02 240);
+}
+
+p {
+  font-family: var(--font-inconsolata);
+  font-weight: 200;
+}
+
+h1 {
+  font-family: var(--font-serif);
+}
 
 /* layout classes */
 

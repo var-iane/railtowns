@@ -41,22 +41,25 @@
     <div class="h-full w-full relative">
       <!-- Static narrative content -->
       <div class="absolute inset-0 flex flex-col justify-center bg-base-100 px-6 py-8 z-20">
-        <div class="narrative-content">
-          <h1 class="text-5xl font-bold mb-6">Template towns</h1>
-          <p class="text-xl leading-relaxed">
+        <div class="narrative-content text-md leading-relaxed">
+          <h1 class="text-4xl font-bold">Template towns</h1>
+          <p>
+            The layout of a town says a lot about how it was founded.
+          </p>
+          <p>
             In 1850, the U.S. government gives free land in the form of land grants to railroad companies to settle the West. 
             The Illinois Central Railroad—the "Main Line of Mid-America"—is given the first one.
           </p>
-          <p class="text-xl leading-relaxed">
+          <p>
             The railroad company needs to lay down tracks and establish towns as quickly as possible. It's a race against other railroad companies and settlers to claim the land first.
           </p>
-          <p class="text-xl leading-relaxed">
+          <p>
             So what does it do? It makes a town template to mass-produce the towns. Steam trains need frequent water stops, so a town is plopped down every 6-10 miles of track.
           </p>
-          <p class="text-xl leading-relaxed">
+          <p>
             These new railroad towns have a lot in common.
           </p>
-          <p class="text-lg mt-4 opacity-70">Scroll to travel along the rail line ↓</p>
+          <p class="mt-4 opacity-70">Scroll to travel along the rail line ↓</p>
         </div>
       </div>
       

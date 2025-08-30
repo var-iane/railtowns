@@ -46,7 +46,7 @@
     <div class="narrative-content">
       <h1 class="text-5xl font-bold mb-6">The slow leak of railroad towns</h1>
       <p class="text-xl leading-relaxed mb-4">
-        To the west, rail tracks snaked across the Great Plains, spitting out a settler town every [] miles. The railroads fueled these largely agricultural towns—and the towns the railroads—like blood vessels; when the blood supply was cut off. A number of factors might have choked off the blood supply: small family farms got largely replaced by corporate farms, overfarming and unsustainable farming practices killed the land and led to the Dust Bowl, the car replaced the train as the dominant American mode of transportation, railroads went bankrupt, the farming crisis of 1980.
+        To the west, rail tracks snaked across the Great Plains, spitting out a settler town every [] miles. The railroads were the lifeblood of these largely agricultural towns—and the towns the railroads—like blood vessels; when the blood supply was cut off. A number of factors might have choked off the blood supply: small family farms got largely replaced by corporate farms, overfarming and unsustainable farming practices killed the land and led to the Dust Bowl, the car replaced the train as the dominant American mode of transportation, railroads went bankrupt, the farming crisis of 1980.
       </p>
     </div>
   </header>

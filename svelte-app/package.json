@@ -25,6 +25,15 @@
 		"vite": "^7.0.4"
 	},
 	"dependencies": {
+		"@fontsource-variable/inconsolata": "^5.2.6",
+		"@fontsource-variable/rethink-sans": "^5.2.6",
+		"@fontsource-variable/space-grotesk": "^5.2.8",
+		"@fontsource/inconsolata": "^5.2.6",
+		"@fontsource/krub": "^5.2.6",
+		"@fontsource/m-plus-rounded-1c": "^5.2.8",
+		"@fontsource/reddit-sans": "^5.2.6",
+		"@fontsource/space-grotesk": "^5.2.8",
+		"@fontsource/young-serif": "^5.2.6",
 		"@tailwindcss/vite": "^4.1.11",
 		"d3": "^7.9.0",
 		"d3-array": "^3.2.4",

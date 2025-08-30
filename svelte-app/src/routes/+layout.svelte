@@ -5,11 +5,12 @@
   $: path = $page.url.pathname;
 
   $: theme =
-  	path === `${base}/` ? 'night' :
-    path.startsWith(`${base}/1-gridtowns`) ? 'night' :
-    path.startsWith(`${base}/2-railtowns`) ? 'synthwave' :
-    path.startsWith(`${base}/3-ghosttowns`) ? 'night' :
-    'night';
+  	path === `${base}/` ? 'abyss' :
+    path.startsWith(`${base}/1-gridtowns`) ? 'abyss' :
+    path.startsWith(`${base}/2-railtowns`) ? 'abyss' :
+    path.startsWith(`${base}/3-ghosttowns`) ? 'abyss' :
+    'abyss';
+
 </script>
 
 <svelte:head>
@@ -17,14 +18,15 @@
 	<title>Railroad towns</title>
 </svelte:head>
 
+<style></style>
 
 <div data-theme={theme} class="min-h-screen">
 	<header class="navbar bg-base-200 border-b border-base-300 mb-4">
-	<div class="flex-1 px-4 text-xl font-bold">
-		<a href={`${base}/`} class="btn btn-ghost normal-case text-xl">Intro</a>
-		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary normal-case text-xl">Grid towns</a>
-		<a href={`${base}/2-railtowns`} class="btn btn-soft btn-secondary normal-case text-xl">Rail towns</a>
-		<a href={`${base}/3-ghosttowns`} class="btn btn-soft btn-neutral normal-case text-xl">Ghost towns</a>
+	<div class="flex-1 px-4 font-inconsolata">
+		<a href={`${base}/`} class="btn btn-soft btn-secondary text-xl font-light">Intro</a>
+		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary text-xl font-light">Template towns</a>
+		<a href={`${base}/2-railtowns`} class="btn btn-soft btn-warning text-xl font-light">Rail towns</a>
+		<a href={`${base}/3-ghosttowns`} class="btn btn-soft btn-error text-xl font-light">Ghost towns</a>
 	</div>
 	</header>
 
