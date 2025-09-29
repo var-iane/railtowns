@@ -5,11 +5,11 @@
   $: path = $page.url.pathname;
 
   $: theme =
-  	path === `${base}/` ? 'abyss' :
-    path.startsWith(`${base}/1-gridtowns`) ? 'abyss' :
-    path.startsWith(`${base}/2-railtowns`) ? 'abyss' :
-    path.startsWith(`${base}/3-ghosttowns`) ? 'abyss' :
-    'abyss';
+  	path === `${base}/` ? 'railtheme' :
+    path.startsWith(`${base}/1-gridtowns`) ? 'railtheme' :
+    path.startsWith(`${base}/2-railtowns`) ? 'railtheme' :
+    path.startsWith(`${base}/3-ghosttowns`) ? 'railtheme' :
+    'railtheme';
 
 </script>
 
@@ -21,12 +21,12 @@
 <style></style>
 
 <div data-theme={theme} class="min-h-screen">
-	<header class="navbar bg-base-200 border-b border-base-300 mb-4">
+	<header class="navbar bg-base-200 border-b border-base-300 fixed top-0 left-0 right-0 z-50">
 	<div class="flex-1 px-4 font-inconsolata">
-		<a href={`${base}/`} class="btn btn-soft btn-secondary text-xl font-light">Intro</a>
-		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary text-xl font-light">Template towns</a>
-		<a href={`${base}/2-railtowns`} class="btn btn-soft btn-warning text-xl font-light">Rail towns</a>
-		<a href={`${base}/3-ghosttowns`} class="btn btn-soft btn-error text-xl font-light">Ghost towns</a>
+		<a href={`${base}/`} class="btn btn-soft btn-primary text-lg font-light">Intro</a>
+		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary text-lg font-light">Template towns</a>
+		<a href={`${base}/2-railtowns`} class="btn btn-soft btn-primary text-lg font-light">Artery towns</a>
+		<a href={`${base}/3-ghosttowns`} class="btn btn-soft btn-primary text-lg font-light">Ghost towns</a>
 	</div>
 	</header>
 

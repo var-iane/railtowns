@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480">
+    <defs>
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90.8,200..900&display=swap');
+        </style>
+        <style>
+            .cls-1{stroke-width:.5px;}.cls-1,.cls-2{stroke:#ffb300;stroke-miterlimit:10;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{fill:none;}.cls-2{stroke-dasharray:.5 10;stroke-width:11px;}.cls-6{fill:#e0e0e0;}.cls-6,.cls-7,.cls-8{font-family:Inconsolata-Regular, Inconsolata;font-size:20px;}.cls-3{stroke:#d81b60;}.cls-3,.cls-4{stroke-linecap:round;stroke-width:8px;}.cls-3,.cls-4,.cls-5{stroke-linejoin:round;}.cls-4{stroke:#3949ab;}.cls-7{fill:#d81b60;}.cls-8{fill:#3949ab;}.cls-5{stroke:#e0e0e0;stroke-linecap:square;stroke-width:5px;}
+        </style>
+    </defs>
+    <g id="grid">
+        <line class="cls-5" x1="104.88" y1="526.12" x2="104.86" y2="272.66"/>
+        <line class="cls-5" x1="236.15" y1="527.99" x2="235.58" y2="273.07"/>
+        <line class="cls-5" x1="498.21" y1="525.77" x2="497.68" y2="271.29"/>
+        <line class="cls-5" x1="366.98" y1="517.09" x2="366.86" y2="-41.53"/>
+        <line class="cls-5" x1="-68.63" y1="61.58" x2="715.37" y2="60.69"/>
+        <line class="cls-5" x1="-67.37" y1="164.6" x2="718.52" y2="164.66"/>
+        <line class="cls-5" x1="236.16" y1="209.01" x2="236.13" y2="-42.99"/>
+        <line class="cls-5" x1="102.59" y1="207.98" x2="102.67" y2="-43.33"/>
+        <line class="cls-5" x1="497.6" y1="209.48" x2="496.55" y2="-43.33"/>
+        <line class="cls-5" x1="-68.03" y1="112.33" x2="717.47" y2="113.44"/>
+        <line class="cls-5" x1="-67.21" y1="321.4" x2="716.8" y2="320.52"/>
+        <line class="cls-5" x1="-65.95" y1="424.43" x2="719.94" y2="424.49"/>
+        <line class="cls-5" x1="-66.61" y1="372.16" x2="718.89" y2="373.26"/>
+    </g>
+    <g id="rail">
+        <g id="rail-lines">
+            <line class="cls-1" x1="-94.52" y1="239.63" x2="717.46" y2="239.62"/>
+        </g>
+        <g id="rail-marks">
+            <line class="cls-2" x1="-92.07" y1="239.63" x2="715.57" y2="239.62"/>
+        </g>
+    </g>
+    <g id="chestnut">
+        <line class="cls-4" x1="-292.87" y1="211.35" x2="817.73" y2="212.43"/>
+    </g>
+    <g id="oak">
+        <line class="cls-3" x1="-199.91" y1="267.62" x2="796.12" y2="266.07"/>
+    </g>
+    <g id="labels">
+        <text class="cls-7" transform="translate(156.79 288.4)"><tspan x="0" y="0">Oak</tspan></text>
+        <text class="cls-8" transform="translate(136.79 203.46)"><tspan x="0" y="0">Chestnut</tspan></text>
+        <text class="cls-6" transform="translate(144.79 339.24)"><tspan x="0" y="0">Locust</tspan></text>
+        <text class="cls-6" transform="translate(144.79 391.4)"><tspan x="0" y="0">Poplar</tspan></text>
+        <text class="cls-6" transform="translate(156.79 443.26)"><tspan x="0" y="0">Ash</tspan></text>
+        <text class="cls-6" transform="translate(144.79 157.6)"><tspan x="0" y="0">Walnut</tspan></text>
+        <text class="cls-6" transform="translate(140.79 105.51)"><tspan x="0" y="0">Hickory</tspan></text>
+        <text class="cls-6" transform="translate(136.79 54.5)"><tspan x="0" y="0">Mulberry</tspan></text>
+    </g>
+</svg>

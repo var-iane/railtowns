@@ -10,18 +10,19 @@
   import town06 from '$lib/assets/svg/town-06.svg?raw';
   import town07 from '$lib/assets/svg/town-07.svg?raw';
   import town08 from '$lib/assets/svg/town-08.svg?raw';
+  import townModel from '$lib/assets/svg/town-model.svg?raw';
 
   let currentTownIndex = $state(-1); // before any town index
 
   const towns = [
-    { name: "Chebanse", svg: town01, description: `This is Chebanse, Illinois.<br><br> The <span class="text-grid font-bold">original street grid</span> is aligned with the <span class="text-rail font-bold">railroad tracks</span>. The <span class="text-allpaths font-bold">roads built up later</span> align north and south.<br><br>Streets perpendicular to the tracks are numbered; <br>streets perpendicular to them are named after trees. <br><br>Here, <span class="text-chestnut font-bold">Chestnut</span> is left of the tracks and <span class="text-oak font-bold">Oak</span> is to their right.<br><br>`},
-    { name: "Onarga", svg: town02, description: `Onarga, Illinois. <br><br>But this pattern repeats itself. Again, <span class="text-chestnut font-bold">Chestnut</span> left of the tracks and <span class="text-oak font-bold">Oak</span> to the right.` },
-    { name: "Champaign-Urbana", svg: town03, description: `Champaign, Illinois is a big college town.<br><br>Yet the old downtown looks awfully familiar: a few diagonal streets, stamped in the center of a north-south grid. <br><br>There are still vestiges of <span class="text-chestnut font-bold">Chestnut St.</span> and <span class="text-oak font-bold">Oak St.</span>`},
-    { name: "Arcola", svg: town04, description: `Arcola, Illinois.` },
-    { name: "Neoga", svg: town05, description: `Neoga, Illinois.` },
-    { name: "Farina", svg: town06, description: `Farina, Illinois.` },
-    { name: "Centralia", svg: town07, description: `Centralia, Illinois.` },
-    { name: "Tamaroa", svg: town08, description: `Tamaroa, Illinois, just one of countless template towns.` }
+    { name: "Chebanse", svg: town01, description: `Chebanse, Illinois`},
+    { name: "Onarga", svg: town02, description: `Onarga, Illinois` },
+    { name: "Champaign", svg: town03, description: `Champaign, Illinois`},
+    { name: "Arcola", svg: town04, description: `Arcola, Illinois` },
+    { name: "Neoga", svg: town05, description: `Neoga, Illinois` },
+    { name: "Farina", svg: town06, description: `Farina, Illinois` },
+    { name: "Centralia", svg: town07, description: `Centralia, Illinois` },
+    { name: "Tamaroa", svg: town08, description: `Tamaroa, Illinois` }
   ];
 
   function updateTownIndex(index) {
@@ -34,32 +35,48 @@
 </svelte:head>
 
 <div class="page-container">
-  <!-- Fixed two-panel grid layout -->
   <div class="fixed inset-0 two-panel-grid" style="top: 60px; height: calc(100vh - 60px);">
     
-    <!-- Left panel: Narrative → Interactive towns -->
+    <!-- Left panel: layout of grid towns -->
     <div class="h-full w-full relative">
       <!-- Static narrative content -->
       <div class="absolute inset-0 flex flex-col justify-center bg-base-100 px-6 py-8 z-20">
         <div class="narrative-content text-md leading-relaxed">
           <h1 class="text-4xl font-bold">Template towns</h1>
-          <p>
+          <!-- <p>
             The layout of a town says a lot about how it was founded.
+          </p> -->
+          <p>
+            In 1850, the U.S. government gives free land in the form of land grants to railroad companies to settle the West. The Illinois Central Railroad is given the first one.
           </p>
           <p>
-            In 1850, the U.S. government gives free land in the form of land grants to railroad companies to settle the West. 
-            The Illinois Central Railroad—the "Main Line of Mid-America"—is given the first one.
+            To lay down tracks and establish towns as quickly as possible, the railroad company makes templates to mass-produce the towns. A town is platted every 6-10 miles of track, with the <span class="text-grid font-bold">street grid</span> aligned with the <span class="text-rail font-bold">railroad tracks</span>. 
           </p>
           <p>
-            The railroad company needs to lay down tracks and establish towns as quickly as possible. It's a race against other railroad companies and settlers to claim the land first.
+            Below is a common template. Streets parallel to the tracks are named for trees, always in this same order. <span class="text-chestnut font-bold">Chestnut Street </span> and <span class="text-oak font-bold">Oak Street</span> always sandwich the tracks. Perpendicular streets are numbered or named after presidents.
           </p>
+          <!-- Responsive SVG container -->
+          <div class="w-full flex justify-center">
+            <div class="relative w-full text-center" 
+                 style="
+                   max-width: 375px; 
+                   aspect-ratio: 375 / 300;
+                   max-height: 300px;
+                 ">
+              <div class="masked-svg" 
+                   style="
+                     width: 100%;
+                     height: 100%;
+                     overflow: hidden;
+                   ">
+                {@html townModel}
+              </div>
+            </div>
+          </div>
           <p>
-            So what does it do? It makes a town template to mass-produce the towns. Steam trains need frequent water stops, so a town is plopped down every 6-10 miles of track.
+            Today, these street grids still define the small towns and the old downtowns of big cities along the Illinois Central Railroad.
           </p>
-          <p>
-            These new railroad towns have a lot in common.
-          </p>
-          <p class="mt-4 opacity-70">Scroll to travel along the rail line ↓</p>
+          <p class="text-rail">Scroll to visit template towns along the rail line ↓</p>
         </div>
       </div>
       

@@ -13,26 +13,82 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/cerberus';
+@import '@skeletonlabs/skeleton/themes/nouveau';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
 @theme {
   --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
   --font-serif: 'Young Serif', 'Lora', serif;
   --font-inconsolata: 'Inconsolata Variable', monospace;
+  --color-gold: oklch(0.7839 0.1719 68.09);
+  --color-blue: oklch(0.4511 0.157 271.6);
+  --color-pink: oklch(0.5737 0.2178 7.85);
+  --color-offwhite: oklch(0.8 0 0);
 }
 
 @plugin "daisyui" {
    themes: all;
  }
 
- @plugin "daisyui/theme" {
+ /* @plugin "daisyui/theme" {
   name: "abyss";
   default: true;
-  /* --color-base-100: oklch(13% 0.028 261.692) */
+  --color-base-100: oklch(13% 0.028 261.692)
   --color-base-content: oklch(0.98 0.02 240);
+  --color-warning: oklch(0.7839 0.1719 68.09);
+} */
+
+@plugin "daisyui/theme" {
+  name: "railtheme";
+  /* default: true; set as default */
+  /* prefersdark: true; set as default dark mode (prefers-color-scheme:dark) */
+  /* color-scheme: light; color of browser-provided UI */
+
+  --color-base-100: oklch(0.18 0.0242 273.42);
+  --color-base-200: oklch(0.15 0.0242 273.42);
+  --color-base-300: oklch(0.1 0.0242 273.42);
+  --color-base-content: var(--color-offwhite);
+  --color-primary: var(--color-gold);
+  --color-primary-content: oklch(0.5026 0.1099 68.09);
+  --color-secondary: var(--color-blue);
+  --color-secondary-content: oklch(0.2978 0.157 271.6);
+  --color-accent: var(--color-pink);
+  --color-accent-content: oklch(0.3085 0.1061 7.85);
+  --color-neutral: oklch(0.2 0.0242 273.42);
+  --color-neutral-content: var(--color-offwhite);
+  --color-info: oklch(70% 0.2 220);
+  --color-info-content: oklch(98% 0.01 220);
+  --color-success: oklch(65% 0.25 140);
+  --color-success-content: oklch(98% 0.01 140);
+  --color-warning: var(--color-gold);
+  --color-warning-content: oklch(20% 0.05 80);
+  --color-error: oklch(65% 0.3 30);
+  --color-error-content: oklch(98% 0.01 30);
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 1;
+  --noise: 0;
 }
 
 p {
   font-family: var(--font-inconsolata);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h1 {
@@ -46,7 +102,7 @@ h1 {
 }
 
 .narrative-section {
-  @apply w-full py-6 px-4;
+  @apply w-full py-12 px-4;
 }
 
 .narrative-content {
@@ -78,73 +134,94 @@ h1 {
 
  /* svg classes */
 
-#illinois-path {
+.masked-svg {
+    /* mask: radial-gradient(ellipse, black 70%, transparent 80%); */
+    font-family: 'Inconsolata Variable', monospace;
+  }
+
+.labels {
+  font-size:16px; 
+}
+
+.town-label {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-offwhite);
+  z-index: 10;
+  /* background: rgba(255,255,255,0.8); */
+  /* padding: 2px 6px;
+  border-radius: 3px; */
+}
+
+#illinois {
   stroke: #ffffff;
-  stroke-width: 2;
-  opacity: 0.3;
+  stroke-width: 3;
+  opacity: 0.5;
 }
 
-#railroad-path {
-  stroke: #ffea00;
-  stroke-width: 4;
+#railroad {
+  stroke: var(--color-gold);
+  /* stroke-width: 4;
   fill: none;
-  opacity: 0.7;
+  opacity: 0.7; */
 }
 
-.oak {
-  stroke: #FF7549; 
-  stroke-width: 5;
+#oak {
+  stroke: var(--color-pink); 
+  /* stroke-width: 5; */
   /* opacity: 0.7; */
 }
 
 .text-oak {
-  color: #FF7549;
+  color: var(--color-pink);
 }
 
-.chestnut {
-  stroke: #3556FC;
-  stroke-width: 5;
+#chestnut {
+  stroke: var(--color-blue);
+  /* stroke-width: 5; */
   /* opacity: 0.7; */
 }
 
 .text-chestnut {
-  color: #3556FC;
+  color: var(--color-blue);
 }
 
-.rail {
-  stroke: #ffea00;
-  stroke-width: 2;
-  opacity: 0.8;
+#rail {
+  stroke: var(--color-gold);
+  /* stroke-width: 2; */
+  opacity: 1;
 }
 
 .text-rail {
-  color: #ffea00;
-  opacity: 0.8;
+  color: var(--color-gold);
+  opacity: 1;
 }
 
-.grid {
-  stroke: #ffffff;
-  stroke-width: 2;
+#grid {
+  stroke: var(--color-offwhite);
   opacity: 1;
 }
 
 .text-grid {
-  color: #ffffff;
+  color: var(--color-offwhite);
   opacity: 1;
 }
 
-.allpaths {
-  stroke: #ffffff;
+#allpaths {
+  stroke: var(--color-offwhite);
   /* stroke-width: 4; */
-  opacity: 0.075;
+  opacity: 0.1;
 }
 
 .text-allpaths {
-  color: #ffffff;
-  opacity: 0.3;
+  color: var(--color-offwhite);
+  opacity: 0.1;
 }
 
-/* champaign-urbana specific */
+/* champaign specific */
 
 .town03 .chestnut {
   stroke-width: 2

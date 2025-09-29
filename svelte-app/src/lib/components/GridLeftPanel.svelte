@@ -6,6 +6,7 @@
 
   let townElements = $state([]);
   let descriptionElement = $state(null);
+  // let nameElement = $state(null);
   let previousIndex = $state(-1);
 
   onMount(() => {
@@ -23,6 +24,7 @@
     // Kill all existing animations on town elements first
     gsap.killTweensOf(townElements);
     if (descriptionElement) gsap.killTweensOf(descriptionElement); 
+    // if (nameElement) gsap.killTweensOf(nameElement); 
 
     // Fade out previous town (if there was one)
     if (previousIndex >= 0 && townElements[previousIndex]) {
@@ -40,6 +42,12 @@
         duration: 0.1
       });
     }
+    // if (nameElement) {
+    //   gsap.to(nameElement, {
+    //     opacity: 0,
+    //     duration: 0.1
+    //   });
+    // }
     
     // Fade in current town
     if (currentTownIndex >= 0 && townElements[currentTownIndex]) {
@@ -60,6 +68,14 @@
           delay: 0.5
       });
     }
+    // if (nameElement && towns[currentTownIndex]?.name) {
+    //     gsap.to(nameElement, {
+    //       opacity: 1,
+    //       duration: 0.2,
+    //       ease: "power2.out",
+    //       delay: 0.5
+    //   });
+    // }
 
     previousIndex = currentTownIndex;
   }
@@ -72,7 +88,11 @@
      style="pointer-events: auto; align-items: center; justify-content: center;">
 
   <!-- Fixed-size SVG container -->
-  <div class="relative flex-shrink-0" style="width: 600px; height: 480px;">
+  <div class="relative flex-shrink-0 w-full" style="
+         max-width: 600px; 
+         aspect-ratio: 600 / 480;
+         max-height: 480px;
+       ">
     {#each towns as town, i}
       <div 
         bind:this={townElements[i]}
@@ -81,27 +101,40 @@
           position: absolute;
           top: 0px;
           left: 0px;
-          width: 600px;
-          height: 480px;
-          box-sizing: border-box;
-        "
-      >
-        <div style="
           width: 100%;
           height: 100%;
-          overflow: hidden;
+          box-sizing: border-box;
         ">
+        <div 
+          class="masked-svg" 
+          style="
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+          ">
           {@html town.svg}
         </div>
+        <!-- <div class="town-label">
+          {#if currentTownIndex >= 0 && towns[currentTownIndex]?.name}
+          <p>
+            {@html towns[currentTownIndex].name}
+          </p>
+          {/if}
+        </div> -->
       </div>
     {/each}
   </div>
 
   <div 
     bind:this={descriptionElement}
-    class="flex-shrink-0 w-[600px] text-sm text-center text-base-content p-4 bg-base-200 rounded shadow min-h-[60px]" 
-    style="display: flex; align-items: center; justify-content: center; opacity: 0;"
-  >
+    class="flex-shrink-0 w-full text-lg text-center text-base-content p-4 bg-base-200 rounded shadow min-h-[60px]" 
+    style="
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      opacity: 0;
+      max-width: 600px
+    ">
     {#if currentTownIndex >= 0 && towns[currentTownIndex]?.description}
       <p>
         {@html towns[currentTownIndex].description}

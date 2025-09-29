@@ -3,7 +3,7 @@
   import { gsap } from 'gsap';
   import { ScrollTrigger } from 'gsap/ScrollTrigger';
   import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin';
-  import railMapSvg from '$lib/assets/svg/illinois-rail-map.svg?raw';
+  import railMapSvg from '$lib/assets/svg/illinois-rail.svg?raw';
 
   gsap.registerPlugin(ScrollTrigger,DrawSVGPlugin);
 
@@ -11,7 +11,7 @@
 
 onMount(() => {
   setTimeout(() => {
-    let railroadPath = document.getElementById('railroad-path');
+    let railroadPath = document.getElementById('railroad-line');
 
     if (railroadPath) {
       // below is function to find closest point on path to a town marker
@@ -51,7 +51,7 @@ onMount(() => {
       // const townPositions = [
       //   getTownPositionOnPath('town01-chebanse'),
       //   getTownPositionOnPath('town02-onarga'),
-      //   getTownPositionOnPath('town03-champaign-urbana'),
+      //   getTownPositionOnPath('town03-champaign'),
       //   getTownPositionOnPath('town04-arcola'),
       //   getTownPositionOnPath('town05-neoga'),
       //   getTownPositionOnPath('town06-farina'),
