@@ -5,7 +5,7 @@
 <div class="page-container">
  <section class="narrative-section">
   <div class="narrative-content text-md leading-relaxed">
-    <h1 class="text-4xl font-bold font-inconsolata">The other side of the tracks</h1>
+    <h1 class="text-4xl font-bold font-inconsolata">Railtowns: The other side of the tracks</h1>
     <p>Welcome to the United States of America around 1850. It's young, overconfident, and growing too fast for its skin. People keep sailing over to find their version of the American Dream, and it's getting very crowded in those cities in the Northeast.</p>
 
     <p>Meanwhile, there's the whole West: so much land to take, and so much money to make.</p>
