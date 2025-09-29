@@ -21,7 +21,7 @@
 <style></style>
 
 <div data-theme={theme} class="min-h-screen">
-	<header class="navbar bg-base-200 border-b border-base-300 fixed top-0 left-0 right-0 z-50">
+	<header class="navbar bg-base-200 border-base-300 fixed top-0 left-0 right-0 z-50">
 	<div class="flex-1 px-4 font-inconsolata">
 		<a href={`${base}/`} class="btn btn-soft btn-primary text-lg font-light">Intro</a>
 		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary text-lg font-light">Template towns</a>
@@ -35,7 +35,7 @@
 	</main>
 </div>
 
-<footer class="footer sm:footer-horizontal footer-center bg-base-200 text-base-content p-4">
+<footer data-theme={theme} class="footer sm:footer-horizontal bg-base-300 text-base-content p-4">
   <aside>
     <p>See the code for this project on <a href="http://github.com/var-iane/railtowns">GitHub</a></p>
   </aside>
