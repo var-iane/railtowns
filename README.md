@@ -16,8 +16,6 @@ It's a work in progress, and I'm updating it frequently.
 | [IPUMS NHGIS](https://data2.nhgis.org/main) | U.S. census tables and GIS data |
 | [Jeremy Atack's historical transportation data](https://my.vanderbilt.edu/jeremyatack/data-downloads/) | shapefiles for railroads built 1826-1911 |
 
-### Population data
-
 ## Part 1: Template towns
 
 This part examines the question: why do so many towns along a railroad look like clones?
