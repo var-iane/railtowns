@@ -1,8 +1,8 @@
-# The other side of the tracks
+# Railtowns: The other side of the tracks
 
 This project was created as part of the [Lede Program](https://ledeprogram.com/) at Columbia's Journalism School. It's a visual exploration of how the U.S. government and railroad companies worked together to aggressively settle the American West.
 
-My aim was to tell the story in three parts, using different forms of data and visualization, to learn and implement a bunch of new skills at once. I used a mix of Python (pandas, BeautifulSoup) and QGIS for web scraping and (geo)data analysis; JavaScript (GSAP, d3), Google Earth Pro, Datawrapper, and Adobe Illustrator for visualization and animation; and Svelte for web development.
+The story is told in three parts, using different forms of data and visualization, to learn and implement a bunch of new skills at once. I used a mix of Python (pandas, BeautifulSoup) and QGIS for web scraping and (geo)data analysis; JavaScript (GSAP, d3), Google Earth Pro, Datawrapper, and Adobe Illustrator for visualization and animation; and Svelte for web development.
 
 It's a work in progress, and I'm updating it frequently.
 
