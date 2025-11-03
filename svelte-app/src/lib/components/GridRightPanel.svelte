@@ -165,7 +165,7 @@ onMount(() => {
           ScrollTrigger.create({
             trigger: '#scroll-container',
             start: `${townScrollPosition * 100}% bottom`,
-            end: `${(townScrollPosition + 0.05) * 100}% bottom`, // Small window
+            end: `${(townScrollPosition + 0.05) * 100}% bottom`,
             onEnter: () => {
               console.log(`Town ${i} entering!`);
               gsap.to(marker, { scale: 1.2, opacity: 1, duration: 0.3 });

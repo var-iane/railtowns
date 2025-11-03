@@ -37,9 +37,9 @@
 <div class="page-container">
   <div class="fixed inset-0 two-panel-grid" style="top: 60px; height: calc(100vh - 60px);">
     
-    <!-- Left panel: layout of grid towns -->
+
     <div class="h-full w-full relative">
-      <!-- Static narrative content -->
+
       <div class="absolute inset-0 flex flex-col justify-center bg-base-100 px-6 py-8 z-20">
         <div class="narrative-content text-md leading-relaxed">
           <h1 class="text-4xl font-bold">Template towns</h1>
@@ -55,7 +55,7 @@
           <p>
             Below is a common template. Streets parallel to the tracks are named for trees, always in this same order. <span class="text-chestnut font-bold">Chestnut Street </span> and <span class="text-oak font-bold">Oak Street</span> always sandwich the tracks. Perpendicular streets are numbered or named after presidents.
           </p>
-          <!-- Responsive SVG container -->
+
           <div class="w-full flex justify-center">
             <div class="relative w-full text-center" 
                  style="
@@ -80,26 +80,22 @@
         </div>
       </div>
       
-      <!-- Interactive towns panel (hidden initially, shown on scroll) -->
       <div class="absolute inset-0 z-10">
         <GridLeftPanel {towns} {currentTownIndex} />
       </div>
     </div>
     
-    <!-- Right panel: Always visible Illinois map -->
     <div class="h-full w-full">
       <GridRightPanel {towns} {updateTownIndex} />
     </div>
     
   </div>
   
-  <!-- Scroll triggers -->
   <div id="scroll-container" style="height: {10 * 100}vh; margin-top: 100vh;">
     <!-- the scroll-container height is number of towns x 100% of viewport/screen height + a full screen height for narrative section + a full screen height for end of railroad path - each town gets ~1 full screen height of scroll to animate through -->
     <!-- Extra section for narrative -->
     <div class="scroll-trigger-narrative" style="height: 100vh;"></div>
     
-    <!-- Town triggers -->
     {#each towns as town, i}
       <div class="town-trigger" data-town-index={i} style="height: 100vh;"></div>
     {/each}

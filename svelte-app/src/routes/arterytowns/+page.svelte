@@ -61,9 +61,9 @@
         Railtowns served, and were served by, railroads. What happened to these towns when their rail routes disappeared?
       </p>
       <p>
-        In the 1950s and 60s, the establishment of the interstate highway system and commercial aviation dealt a massive blow to rail transit. Route-miles of passenger service dropped from about 107,000 miles in 1958; to 49,000 miles in 1970; to 21,000 miles today.
+        The rise of the interstate highway system and commercial aviation in the 1950s and 60s dealt a massive blow to rail transit. Route-miles of passenger service dropped from about 107,000 miles in 1958; to 49,000 miles in 1970; to 21,000 miles today.
       </p>
-      <p>The vast majority of track today is for freight only.</p>
+      <p>Today, the vast majority of track carries only freight.</p>
         
     <!-- US RAIL MAP -->
     <div class="map-section my-12 font-inconsolata">
@@ -131,10 +131,10 @@
 
     <!-- PLAINS MAP -->
       <p>
-        Rural railtowns managed to hang on to passenger rail until 1967.
+        Rural railtowns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
       </p>
-        
-      <p>Since the mid-1800s, railroad companies had kept passenger trains running on less profitable routes by contracting with the U.S. Post Office to carry mail on special "Railway Post Office" cars. When the Post Office shifted to regional sorting centers and air and truck transport in 1967, most passenger routes died. Amtrak took over the remnants of passenger rail in 1970.
+      <p>Most passenger routes weren't actually profitable for railroad companies, but since the mid-1800s, the Post Office had kept them alive by contracting the railroads to carry, sort, and deliver mail aboard special "Railway Post Office" cars hitched to fast passenger trains. Postal clerks worked on the move, sorting letters by hand and mastering routines to hurl mailbags and snatch outgoing mail as the trains whizzed by tiny town stations at 70 miles per hour.</p>
+      <p>In 1967, the Post Office switched to planes, trucks, and regional sorting centers. Most passenger routes died. Amtrak took over the scraps of passenger rail in 1970.
       </p>
 
         <div class="map-section my-12 font-inconsolata">
@@ -150,7 +150,7 @@
 
             />
             <div class="w-full max-w-md flex justify-between text-sm">
-              <span>Early 1900s</span>
+              <span>1920s</span>
               <span>1970s</span>
               <span>Today</span>
             </div>
