@@ -9,20 +9,21 @@
 @import url('@fontsource/krub/500.css');
 @import url('@fontsource-variable/rethink-sans');
 @import url('@fontsource/young-serif');
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Antic+Didone&family=Antic+Slab&family=BBH+Sans+Bogle&family=Boldonse&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Italiana&family=Matangi:wght@300..900&family=Rubik+Doodle+Shadow&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-@import '@skeletonlabs/skeleton';
+/* @import '@skeletonlabs/skeleton';
 @import '@skeletonlabs/skeleton/optional/presets';
 @import '@skeletonlabs/skeleton/themes/cerberus';
 @import '@skeletonlabs/skeleton/themes/nouveau';
 
-@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist'; */
 
 @theme {
   --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
-  --font-serif: 'Young Serif', 'Lora', serif;
+  --font-heading: 'Matangi', 'Young Serif', 'Lora', serif;
   --font-inconsolata: 'Inconsolata Variable', monospace;
   --color-gold: oklch(0.7839 0.1719 68.09);
   --color-blue: oklch(0.4511 0.157 271.6);
@@ -92,7 +93,8 @@ p {
 }
 
 h1 {
-  font-family: var(--font-serif);
+  font-family: var(--font-heading);
+  /* font-weight: 600; */
 }
 
 /* layout classes */
@@ -142,6 +144,8 @@ h1 {
 .labels {
   font-size:16px; 
 }
+
+/* GRIDTOWNS */
 
 .town-label {
   position: absolute;
@@ -224,35 +228,55 @@ h1 {
 /* champaign specific */
 
 .town03 .chestnut {
-  stroke-width: 2
+  stroke-width: 2;
 }
 
 .town03 .oak {
-  stroke-width: 2
+  stroke-width: 2;
 }
 
 .town03 .rail {
-  stroke-width: 1.5
+  stroke-width: 1.5;
 }
 
 .town03 .grid {
-  stroke-width: 0.75
+  stroke-width: 0.75;
 }
 
 /* centralia specific */
 
 .town07 .chestnut {
-  stroke-width: 3
+  stroke-width: 3;
 }
 
 .town07 .oak {
-  stroke-width: 3
+  stroke-width: 3;
 }
 
 .town07 .rail {
-  stroke-width: 2
+  stroke-width: 2;
 }
 
 .town07 .grid {
-  stroke-width: 0.75
+  stroke-width: 0.75;
 }
+
+/* ARTERY TOWNS */
+
+
+
+#states path {
+  stroke: white;
+}
+
+/* #rails-before path {
+  stroke-width: 1.5;
+}
+
+#rails-now path {
+  stroke-width: 1.5;
+}
+
+#rails-amtrak path {
+  stroke-width: 1.5;
+} */

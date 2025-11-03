@@ -6,9 +6,9 @@
 
   $: theme =
   	path === `${base}/` ? 'railtheme' :
-    path.startsWith(`${base}/1-gridtowns`) ? 'railtheme' :
-    path.startsWith(`${base}/2-railtowns`) ? 'railtheme' :
-    path.startsWith(`${base}/3-ghosttowns`) ? 'railtheme' :
+    path.startsWith(`${base}/gridtowns`) ? 'railtheme' :
+    path.startsWith(`${base}/railtowns`) ? 'railtheme' :
+    path.startsWith(`${base}/ghosttowns`) ? 'railtheme' :
     'railtheme';
 
 </script>
@@ -24,9 +24,9 @@
 	<header class="navbar bg-base-200 border-base-300 fixed top-0 left-0 right-0 z-50">
 	<div class="flex-1 px-4 font-inconsolata">
 		<a href={`${base}/`} class="btn btn-soft btn-primary text-lg font-light">Intro</a>
-		<a href={`${base}/1-gridtowns`} class="btn btn-soft btn-primary text-lg font-light">Template towns</a>
-		<a href={`${base}/2-railtowns`} class="btn btn-soft btn-primary text-lg font-light">Artery towns</a>
-		<a href={`${base}/3-ghosttowns`} class="btn btn-soft btn-primary text-lg font-light">Ghost towns</a>
+		<a href={`${base}/gridtowns`} class="btn btn-soft btn-primary text-lg font-light">Template towns</a>
+		<a href={`${base}/arterytowns`} class="btn btn-soft btn-primary text-lg font-light">Artery towns</a>
+		<a href={`${base}/ghosttowns`} class="btn btn-soft btn-primary text-lg font-light">Ghost towns</a>
 	</div>
 	</header>
 

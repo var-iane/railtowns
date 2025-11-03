@@ -1,0 +1,226 @@
+<script>
+
+  import { base } from '$app/paths';
+
+  let showCurrent = $state(false);
+  let sliderValue = $state(0);
+
+  const stages = [
+    { img: 'plains-boom.png', 
+      label: 'Boom times', 
+      legend: [
+        { color: '#ffa000', text: 'Active lines' }
+      ] },
+    { img: 'plains-abandoned.png', 
+      label: 'Hard times and abandoned lines',
+      legend: [
+          { color: '#ffa000', text: 'Active lines' },
+          { color: '#444872', text: 'Abandoned lines' }
+      ] },
+    { img: 'plains-places.png', 
+      label: 'Towns on the ghost lines',
+      legend: [
+          { color: '#ffa000', text: 'Active lines' },
+          { color: '#009999', text: 'Towns along abandoned routes' }
+        ] }
+  ];
+
+  function getOpacity(stageIndex) {
+    const position = sliderValue / 50;
+    
+    if (stageIndex === 0) {
+      return Math.max(0, 1 - position);
+    } else if (stageIndex === 1) {
+      if (position < 1) {
+        return position;
+      } else {
+        return Math.max(0, 2 - position);
+      }
+    } else if (stageIndex === 2) {
+      return Math.max(0, position - 1);
+    }
+    return 0;
+  }
+  
+  let currentStageIndex = $derived(
+    sliderValue < 25 ? 0 : sliderValue < 75 ? 1 : 2
+  );
+  
+  let currentStage = $derived(stages[currentStageIndex]);
+</script>
+
+<svelte:head>
+  <title>Artery towns</title>
+</svelte:head>
+
+<div class="page-container">
+  <div class="narrative-section">
+    <div class="narrative-content text-md leading-relaxed">
+      <h1 class="text-4xl font-bold">Artery towns</h1>
+      <p>
+        Railtowns served, and were served by, railroads. What happened to these towns when their rail routes disappeared?
+      </p>
+      <p>
+        In the 1950s and 60s, the establishment of the interstate highway system and commercial aviation dealt a massive blow to rail transit. Route-miles of passenger service dropped from about 107,000 miles in 1958; to 49,000 miles in 1970; to 21,000 miles today.
+      </p>
+      <p>The vast majority of track today is for freight only.</p>
+        
+    <!-- US RAIL MAP -->
+    <div class="map-section my-12 font-inconsolata">
+      <h2 class="text-2xl font-bold mb-4">The retreat of American passenger rail</h2>
+
+      <!-- toggle -->
+      <div class="flex items-center justify-start gap-4 mb-6">
+        <span class="text-lg font-medium" class:opacity-30={showCurrent}>Rails a century ago</span>
+        <input 
+          type="checkbox" 
+          class="toggle bg-secondary text-base-content checked:bg-secondary checked:text-base-content border-2 border-base-300"
+          bind:checked={showCurrent}
+        />
+        <span class="text-lg font-medium" class:opacity-30={!showCurrent}>Rails now</span>
+      </div>
+
+      <!-- legend -->
+      <div class="flex justify-start">
+        {#if !showCurrent}
+          <div class="legend-item">
+            <div class="legend-box" style="background-color: #ffa000;"></div>
+            <span class="text-sm">Passenger + freight</span>
+          </div>
+        {:else}
+          <div class="flex gap-6 flex-wrap justify-start">
+            <div class="legend-item">
+              <div class="legend-box" style="background-color: #ffa000;"></div>
+              <span class="text-sm">Passenger + freight</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-box" style="background-color: #009999;"></div>
+              <span class="text-sm">Freight only</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-box" style="background-color: #444872;"></div>
+              <span class="text-sm">Abandoned track</span>
+            </div>
+          </div>
+        {/if}
+      </div>
+
+        <div class="map-container mx-auto"
+            style="
+              max-width: 1200px; 
+              aspect-ratio: 800 / 600;
+              max-height: 800px;
+              position: relative;
+            ">
+      
+          <img 
+            src="{base}/images/rails-before.png" 
+            alt="Rails then"
+            class="map-image"
+            style="opacity: {showCurrent ? 0 : 1};"
+          />
+
+          <img 
+            src="{base}/images/rails-now-types.png" 
+            alt="Rails now"
+            class="map-image"
+            style="opacity: {showCurrent ? 1 : 0};"
+          />
+        </div>
+        </div>
+
+    <!-- PLAINS MAP -->
+      <p>
+        Rural railtowns managed to hang on to passenger rail until 1967.
+      </p>
+        
+      <p>Since the mid-1800s, railroad companies had kept passenger trains running on less profitable routes by contracting with the U.S. Post Office to carry mail on special "Railway Post Office" cars. When the Post Office shifted to regional sorting centers and air and truck transport in 1967, most passenger routes died. Amtrak took over the remnants of passenger rail in 1970.
+      </p>
+
+        <div class="map-section my-12 font-inconsolata">
+          <h2 class="text-2xl font-bold mb-4">Retreat on the Great Plains</h2>
+          <div class="flex flex-col items-start gap-4 mb-6">
+            <p class="text-center text-lg font-medium transition-opacity">{currentStage.label}</p>
+            <input 
+              type="range" 
+              min="0" 
+              max="100" 
+              bind:value={sliderValue}
+              class="custom-range range range-secondary w-full max-w-md"
+
+            />
+            <div class="w-full max-w-md flex justify-between text-sm">
+              <span>Early 1900s</span>
+              <span>1970s</span>
+              <span>Today</span>
+            </div>
+          </div>
+
+          <div class="flex justify-start gap-6 mb-4">
+            {#each currentStage.legend as item}
+              <div class="legend-item">
+                <div class="legend-box" style="background-color: {item.color};"></div>
+                <span class="text-sm">{item.text}</span>
+              </div>
+            {/each}
+          </div>
+          
+          <div class="map-container relative"
+              style="
+                max-width: 1200px; 
+                aspect-ratio: 800 / 600;
+                max-height: 800px;
+              ">
+            {#each stages as stage, i}
+              <img 
+                src="{base}/images/{stage.img}"
+                alt={stage.label}
+                class="map-layer"
+                style="opacity: {getOpacity(i)};"
+              />
+            {/each}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<style>
+
+ .custom-range::-webkit-slider-thumb {
+    background-color: var(--color-secondary);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .map-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .legend-box {
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+  }
+
+  .map-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: opacity 0.8s ease-in-out;
+  }
+
+</style>
