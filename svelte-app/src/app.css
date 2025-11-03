@@ -10,6 +10,7 @@
 @import url('@fontsource-variable/rethink-sans');
 @import url('@fontsource/young-serif');
 @import url('https://fonts.googleapis.com/css2?family=Antic&family=Antic+Didone&family=Antic+Slab&family=BBH+Sans+Bogle&family=Boldonse&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Italiana&family=Matangi:wght@300..900&family=Rubik+Doodle+Shadow&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&family=Exo:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&family=Oxanium:wght@200..800&family=Protest+Strike&display=swap');
 
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
@@ -23,7 +24,7 @@
 
 @theme {
   --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
-  --font-heading: 'Young Serif', 'Matangi', 'Lora', serif;
+  --font-heading: 'Do Hyeon', 'Exo', 'Oxanium', 'Momo Trust Display', 'Boldonse', 'BBH Sans Bogle', 'Young Serif', 'Matangi', serif;
   --font-inconsolata: 'Inconsolata Variable', monospace;
   --color-gold: oklch(0.7839 0.1719 68.09);
   --color-blue: oklch(0.4511 0.157 271.6);
@@ -34,14 +35,6 @@
 @plugin "daisyui" {
    themes: all;
  }
-
- /* @plugin "daisyui/theme" {
-  name: "abyss";
-  default: true;
-  --color-base-100: oklch(13% 0.028 261.692)
-  --color-base-content: oklch(0.98 0.02 240);
-  --color-warning: oklch(0.7839 0.1719 68.09);
-} */
 
 @plugin "daisyui/theme" {
   name: "railtheme";
@@ -94,6 +87,8 @@ p {
 
 h1 {
   font-family: var(--font-heading);
+  font-size: 3rem;
+  /* letter-spacing: .15rem; */
   /* font-weight: 600; */
 }
 
