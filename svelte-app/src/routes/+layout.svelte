@@ -15,7 +15,7 @@
 
 <svelte:head>
 	<link rel="icon" href={`${base}/favicon.svg`} />
-	<title>Railroad towns</title>
+	<title>Railtowns</title>
 </svelte:head>
 
 <style></style>

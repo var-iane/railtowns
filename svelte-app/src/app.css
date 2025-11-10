@@ -10,7 +10,7 @@
 @import url('@fontsource-variable/rethink-sans');
 @import url('@fontsource/young-serif');
 @import url('https://fonts.googleapis.com/css2?family=Antic&family=Antic+Didone&family=Antic+Slab&family=BBH+Sans+Bogle&family=Boldonse&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Italiana&family=Matangi:wght@300..900&family=Rubik+Doodle+Shadow&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&family=Exo:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&family=Oxanium:wght@200..800&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&family=Exo:ital,wght@0,100..900;1,100..900&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Momo+Trust+Display&family=Oxanium:wght@200..800&family=Protest+Strike&display=swap');
 
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
@@ -24,7 +24,7 @@
 
 @theme {
   --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
-  --font-heading: 'Do Hyeon', 'Exo', 'Oxanium', 'Momo Trust Display', 'Boldonse', 'BBH Sans Bogle', 'Young Serif', 'Matangi', serif;
+  --font-heading: 'Do Hyeon', 'Kulim Park', 'Exo', 'Oxanium', 'Momo Trust Display', 'Boldonse', 'BBH Sans Bogle', 'Young Serif', 'Matangi', serif;
   --font-inconsolata: 'Inconsolata Variable', monospace;
   --color-gold: oklch(0.7839 0.1719 68.09);
   --color-blue: oklch(0.4511 0.157 271.6);

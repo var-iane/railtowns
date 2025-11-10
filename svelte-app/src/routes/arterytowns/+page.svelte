@@ -181,6 +181,28 @@
             {/each}
           </div>
         </div>
+        <div class="map-section my-12 font-inconsolata">
+          <h2 class="text-2xl font-bold mb-4">Cowboy Line</h2>
+
+          <img 
+            src="{base}/images/cowboy-line-towns.png" 
+            alt="Towns on the Cowboy Line"
+          />
+          
+
+          <div id="observablehq-cowboyPops-9f24eaed"></div>
+          <div id="observablehq-cowboyChange-9f24eaed"></div>
+          
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+          <script type="module">
+          import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+          import define from "https://api.observablehq.com/d/1c0349c84ac67657@447.js?v=4";
+          new Runtime().module(define, name => {
+            if (name === "cowboyPops") return new Inspector(document.querySelector("#observablehq-cowboyPops-9f24eaed"));
+            if (name === "cowboyChange") return new Inspector(document.querySelector("#observablehq-cowboyChange-9f24eaed"));
+          });
+          </script>
+        </div>
         
       </div>
     </div>
