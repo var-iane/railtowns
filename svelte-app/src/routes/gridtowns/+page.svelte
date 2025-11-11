@@ -43,9 +43,6 @@
       <div class="absolute inset-0 flex flex-col justify-center bg-base-100 px-6 py-8 z-20">
         <div class="narrative-content text-md leading-relaxed">
           <h1 class="text-4xl font-bold">Template towns</h1>
-          <!-- <p>
-            The layout of a town says a lot about how it was founded.
-          </p> -->
           <p>
             In 1850, the U.S. government gives free land in the form of land grants to railroad companies to settle the West. The Illinois Central Railroad is given the first one.
           </p>
@@ -53,7 +50,7 @@
             To lay down tracks and establish towns as quickly as possible, the railroad company makes templates to mass-produce the towns. A town is platted every 6-10 miles of track, with the <span class="text-grid font-bold">street grid</span> aligned with the <span class="text-rail font-bold">railroad tracks</span>. 
           </p>
           <p>
-            Below is a common template. Streets parallel to the tracks are named for trees, always in this same order. <span class="text-chestnut font-bold">Chestnut Street </span> and <span class="text-oak font-bold">Oak Street</span> always sandwich the tracks. Perpendicular streets are numbered or named after presidents.
+            Below is a common template. Streets parallel to the tracks are named for trees, always in this same order. <span class="text-chestnut font-bold">Chestnut Street </span> and <span class="text-oak font-bold">Oak Street</span> always sandwich the tracks. Perpendicular streets are numbered or named after U.S. presidents.
           </p>
 
           <div class="w-full flex justify-center">

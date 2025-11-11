@@ -167,7 +167,7 @@ onMount(() => {
             start: `${townScrollPosition * 100}% bottom`,
             end: `${(townScrollPosition + 0.05) * 100}% bottom`,
             onEnter: () => {
-              console.log(`Town ${i} entering!`);
+              // console.log(`Town ${i} entering!`);
               gsap.to(marker, { scale: 1.2, opacity: 1, duration: 0.3 });
               updateTownIndex(i); // show this town's svg
             },
@@ -177,11 +177,11 @@ onMount(() => {
             },
             onEnterBack: () => {
               gsap.to(marker, { scale: 1.2, opacity: 1, duration: 0.3 });
-              updateTownIndex(i);  // ← Show this town's SVG again
+              updateTownIndex(i);  // Show this town's SVG again
             },
             onLeaveBack: () => {
               gsap.to(marker, { scale: 0.5, opacity: 0.3, duration: 0.3 });
-              updateTownIndex(i - 1);  // ← Show previous town (or -1 if first town)
+              updateTownIndex(i - 1);  // Show previous town (or -1 if first town)
             }
           });
         }

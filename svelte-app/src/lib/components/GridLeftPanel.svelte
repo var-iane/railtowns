@@ -87,12 +87,40 @@
 <div class="h-full w-full flex flex-col bg-base-100 px-4 py-6 gap-3" 
      style="pointer-events: auto; align-items: center; justify-content: center;">
 
+    <!-- legend -->
+  <div 
+    class="flex-shrink-0 w-full text-lg text-center text-base-content p-4 bg-base-100 rounded shadow min-h-[60px]" 
+    style="
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      opacity: 100;
+      max-width: 600px
+    ">
+    <div class="flex gap-6 flex-wrap justify-start font-inconsolata">
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: var(--color-blue);"></div>
+        <span class="text-sm">Chestnut</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: var(--color-offwhite);"></div>
+        <span class="text-sm">Template grid</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: var(--color-pink);"></div>
+        <span class="text-sm">Oak</span>
+      </div>
+    </div>
+  </div> 
+    
+
   <!-- Fixed-size SVG container -->
   <div class="relative flex-shrink-0 w-full" style="
          max-width: 600px; 
          aspect-ratio: 600 / 480;
          max-height: 480px;
        ">
+       
     {#each towns as town, i}
       <div 
         bind:this={townElements[i]}
@@ -142,5 +170,22 @@
     {/if}
   </div>
 
+  
+
 </div>
 
+<style>
+
+  .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+  .legend-box {
+    width: 20px;
+    height: 3px;
+    border-radius: 1px;
+  }
+
+</style>

@@ -190,7 +190,7 @@
             {/each}
           </div>
         </div>
-        
+
         <div class="map-section my-12 font-inconsolata">
           <h2 class="text-2xl font-bold mb-4">Towns on the Cowboy Line</h2>
             <div class="flex flex-col items-start gap-4 mb-6">
@@ -202,6 +202,7 @@
           />
     
           <p>The Cowboy Line and <span class="font-bold" style="color: #009999">its towns</span> were each others' lifebloods, each dependent on the other for survival.</p>
+
           <p>Hover over the squares below to watch the town populations change per decade.</p>
 
           <div id="observablehq-cowboyPops-9f24eaed"></div>
