@@ -145,8 +145,9 @@
           <div class="map-section my-12 font-inconsolata">
           <h2 class="text-2xl font-bold mb-4">Abandoned lines in the Great Plains</h2>
             <div class="flex flex-col items-start gap-4 mb-6">
-              <p>Many passenger lines turned into freight routes, making profits off cargo instead. Other routes hemorrhaged money. Between the late 1960s and 1990s, struggling rail companies began abandoning these lines altogether.</p>
-              <p>Abandoned routes, and their towns, flank the plains of North Dakota, South Dakota, and Nebraska.</p>
+              <p>Many passenger lines turned into freight routes, making profits off cargo instead.</p>
+              <p>Other routes hemorrhaged money. Between the late 1960s and 1990s, struggling rail companies began <span class="font-bold" style="color: #444872">abandoning these lines</span> altogether.</p>
+              <p><span class="font-bold" style="color: #444872">Abandoned routes</span>, and <span class="font-bold" style="color: #009999">their towns</span>, flank the plains of North Dakota, South Dakota, and Nebraska.</p>
           
             <p class="text-center text-lg font-large transition-opacity">{currentStage.label}</p>
             <input 
@@ -189,6 +190,7 @@
             {/each}
           </div>
         </div>
+        
         <div class="map-section my-12 font-inconsolata">
           <h2 class="text-2xl font-bold mb-4">Towns on the Cowboy Line</h2>
             <div class="flex flex-col items-start gap-4 mb-6">
