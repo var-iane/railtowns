@@ -130,17 +130,25 @@
         </div>
 
     <!-- PLAINS MAP -->
-      <p>
-        Rural railtowns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
-      </p>
-      <p>Most passenger routes weren't actually profitable for railroad companies, but since the mid-1800s, the Post Office had kept them alive by contracting the railroads to carry, sort, and deliver mail aboard special "Railway Post Office" cars hitched to fast passenger trains. Postal clerks worked on the move, sorting letters by hand and mastering routines to hurl mailbags and snatch outgoing mail as the trains whizzed by tiny town stations at 70 miles per hour.</p>
-      <p>In 1967, the Post Office switched to planes, trucks, and regional sorting centers. Most passenger routes died. Amtrak took over the scraps of passenger rail in 1970.
-      </p>
+      
 
         <div class="map-section my-12 font-inconsolata">
-          <h2 class="text-2xl font-bold mb-4">Retreat on the Great Plains</h2>
+          <h2 class="text-2xl font-bold mb-4">Passenger rail loses its biggest customer</h2>
           <div class="flex flex-col items-start gap-4 mb-6">
-            <p class="text-center text-lg font-medium transition-opacity">{currentStage.label}</p>
+          <p>
+            Rural railtowns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
+          </p>
+          <p>Most passenger routes weren't actually profitable for railroad companies, but since the mid-1800s, the Post Office had kept them alive by contracting the rails to carry, sort, and deliver mail aboard special "Railway Post Office" cars hitched to fast passenger trains. Postal clerks worked on the move, sorting letters by hand and hurling and snatching mailbags as the trains whizzed by tiny town stations at 70 miles per hour.</p>
+          <p>By 1967, the Post Office couldn't resist the allure of modernization: planes, trucks, and regional (stationary) sorting centers. Without their biggest customer, most passenger routes died. Amtrak took over the scraps of passenger rail in 1970.
+          </p>
+
+          <div class="map-section my-12 font-inconsolata">
+          <h2 class="text-2xl font-bold mb-4">Abandoned lines in the Great Plains</h2>
+            <div class="flex flex-col items-start gap-4 mb-6">
+              <p>Many passenger lines turned into freight routes, making profits off cargo instead. Other routes hemorrhaged money. Between the late 1960s and 1990s, struggling rail companies began abandoning these lines altogether.</p>
+              <p>Abandoned routes, and their towns, flank the plains of North Dakota, South Dakota, and Nebraska.</p>
+          
+            <p class="text-center text-lg font-large transition-opacity">{currentStage.label}</p>
             <input 
               type="range" 
               min="0" 
@@ -151,7 +159,7 @@
             />
             <div class="w-full max-w-md flex justify-between text-sm">
               <span>1920s</span>
-              <span>1970s</span>
+              <span>1980s</span>
               <span>Today</span>
             </div>
           </div>
@@ -182,13 +190,17 @@
           </div>
         </div>
         <div class="map-section my-12 font-inconsolata">
-          <h2 class="text-2xl font-bold mb-4">Cowboy Line</h2>
+          <h2 class="text-2xl font-bold mb-4">Towns on the Cowboy Line</h2>
+            <div class="flex flex-col items-start gap-4 mb-6">
+          <p>The Cowboy Line stretched across Nebraska, hauling grain, lumber, South Dakotan bentonite, and Wyoming coal between the High Plains and the Midwest. Declining freight traffic in the 1970s and a damaging flood spelled the end of the line: its parent company abandoned the route in 1982.</p>
 
           <img 
             src="{base}/images/cowboy-line-towns.png" 
             alt="Towns on the Cowboy Line"
           />
-          
+    
+          <p>The Cowboy Line and <span class="font-bold" style="color: #009999">its towns</span> were each others' lifebloods, each dependent on the other for survival.</p>
+          <p>Hover over the squares below to watch the town populations change per decade.</p>
 
           <div id="observablehq-cowboyPops-9f24eaed"></div>
           <div id="observablehq-cowboyChange-9f24eaed"></div>
@@ -203,8 +215,11 @@
           });
           </script>
         </div>
+        </div>
         
       </div>
+    </div>
+    </div>
     </div>
   </div>
 
