@@ -203,7 +203,7 @@
     
           <p>The Cowboy Line and <span class="font-bold" style="color: #009999">its towns</span> were each others' lifebloods, each dependent on the other for survival.</p>
 
-          <p>Hover over the squares below to watch the town populations change per decade.</p>
+          <p>Hover over the squares below to explore how the town populations change per decade.</p>
 
           <div id="observablehq-cowboyPops-9f24eaed"></div>
           <div id="observablehq-cowboyChange-9f24eaed"></div>
