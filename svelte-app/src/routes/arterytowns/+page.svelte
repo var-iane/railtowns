@@ -58,12 +58,23 @@
     <div class="narrative-content text-md leading-relaxed">
       <h1 class="text-4xl font-bold">Artery towns</h1>
       <p>
-        Railtowns served, and were served by, railroads. What happened to these towns when their rail routes disappeared?
+        For a golden period around 1900 to 1950, the country was cloaked east-to-west in 200,000+ miles of rail tracks that carried both <span class="font-bold" style="color: #ffa000">passengers and freight cargo</span>.
       </p>
       <p>
-        The rise of the interstate highway system and commercial aviation in the 1950s and 60s dealt a massive blow to rail transit. Route-miles of passenger service dropped from about 107,000 miles in 1958; to 49,000 miles in 1970; to 21,000 miles today.
+        But with the construction of the interstate highway and rise of commercial aviation in the 1950s and 60s, cars and planes quickly became Americans' preferred ways to get around.
+        <!-- Route-miles of passenger service dropped from about 107,000 miles in 1958; to 49,000 miles in 1970; to 21,000 miles today. -->
       </p>
-      <p>Today, the vast majority of track carries only freight.</p>
+      <p>Many lines turned into <span class="font-bold" style="color: #009999">freight-only</span> routes, making profits off cargo instead.</p>
+        <p>Other routes hemorrhaged money. Between the late 1960s and 1990s, struggling rail companies began <span class="font-bold" style="color: #444872">abandoning lines</span> altogether: about 80,000 miles in total.</p>
+        <!-- <p>
+            Rural railroad towns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
+          </p>
+          <p>Most passenger routes weren't actually profitable for railroad companies, but since the mid-1800s, the Post Office had kept them alive by contracting the rails to carry, sort, and deliver mail aboard special "Railway Post Office" cars hitched to fast passenger trains. Postal clerks worked on the move, sorting letters by hand and hurling and snatching mailbags as the trains whizzed by tiny town stations at 70 miles per hour.</p>
+          <p>By 1967, the Post Office couldn't resist the allure of modernization: planes, trucks, and regional (stationary) sorting centers. Without their biggest customer, most passenger routes died. </p> -->
+            <p>Amtrak took over the scraps of passenger rail in 1970. Today, only 21,000 miles of rail serve passengers. The vast majority of track carries only freight.
+          </p>
+      
+      <p></p>
         
     <!-- US RAIL MAP -->
     <div class="map-section my-12 font-inconsolata">
@@ -132,21 +143,20 @@
     <!-- PLAINS MAP -->
       
 
-        <div class="map-section my-12 font-inconsolata">
-          <h2 class="text-2xl font-bold mb-4">Passenger rail loses its biggest customer</h2>
-          <div class="flex flex-col items-start gap-4 mb-6">
-          <p>
-            Rural railtowns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
+        <!-- <div class="map-section my-12 font-inconsolata"> -->
+          <!-- <h2 class="text-2xl font-bold mb-4">Passenger rail loses its biggest customer</h2> -->
+          <!-- <div class="flex flex-col items-start gap-4 mb-6"> -->
+          <!-- <p>
+            Rural railroad towns managed to hang on to passenger rail until 1967, thanks to the U.S. Post Office.
           </p>
           <p>Most passenger routes weren't actually profitable for railroad companies, but since the mid-1800s, the Post Office had kept them alive by contracting the rails to carry, sort, and deliver mail aboard special "Railway Post Office" cars hitched to fast passenger trains. Postal clerks worked on the move, sorting letters by hand and hurling and snatching mailbags as the trains whizzed by tiny town stations at 70 miles per hour.</p>
           <p>By 1967, the Post Office couldn't resist the allure of modernization: planes, trucks, and regional (stationary) sorting centers. Without their biggest customer, most passenger routes died. Amtrak took over the scraps of passenger rail in 1970.
-          </p>
+          </p> -->
 
           <div class="map-section my-12 font-inconsolata">
           <h2 class="text-2xl font-bold mb-4">Abandoned lines in the Great Plains</h2>
             <div class="flex flex-col items-start gap-4 mb-6">
-              <p>Many passenger lines turned into freight routes, making profits off cargo instead.</p>
-              <p>Other routes hemorrhaged money. Between the late 1960s and 1990s, struggling rail companies began <span class="font-bold" style="color: #444872">abandoning these lines</span> altogether.</p>
+              
               <p><span class="font-bold" style="color: #444872">Abandoned routes</span>, and <span class="font-bold" style="color: #009999">their towns</span>, flank the plains of North Dakota, South Dakota, and Nebraska.</p>
           
             <p class="text-center text-lg font-large transition-opacity">{currentStage.label}</p>
@@ -201,12 +211,14 @@
             alt="Towns on the Cowboy Line"
           />
     
-          <p>The Cowboy Line and <span class="font-bold" style="color: #009999">its towns</span> were each others' lifebloods, each dependent on the other for survival.</p>
+          <p>The Cowboy Line and <span class="font-bold" style="color: #009999">its towns</span> were each dependent on the other for survival.</p>
 
           <p>Hover over the squares below to explore how the town populations change per decade.</p>
 
-          <div id="observablehq-cowboyPops-9f24eaed"></div>
-          <div id="observablehq-cowboyChange-9f24eaed"></div>
+          <div style="display: flex; gap: 1rem;">
+            <div id="observablehq-cowboyPops-9f24eaed"></div>
+            <div id="observablehq-cowboyChange-9f24eaed"></div>
+          </div>
           
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
           <script type="module">
@@ -221,8 +233,6 @@
         </div>
         
       </div>
-    </div>
-    </div>
     </div>
   </div>
 

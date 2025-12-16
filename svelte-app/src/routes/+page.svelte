@@ -14,7 +14,7 @@
 
     <!-- [image fades in of US with settled west] -->
 
-    <p>The story of the Western railroads is one of federal and corporate greed, forced displacement, false promises, and boom-and-bust capitalism. It's told in three parts. Use the navigation bar at the top!</p>
+    <p>This story of the Western railroads is told in three parts. Use the navbar at the top!</p>
 
   </div>
 </section>
