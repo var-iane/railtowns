@@ -39,14 +39,51 @@
 
           <!-- {@html montanaSat} -->
 
-          <div class="w-full flex justify-center">
-          <div class="relative w-full text-center" 
-              style="
-                max-width: 1200px; 
-              "
-              >
-            <img src="{base}/images/northwest-rail-satellite.png" alt="Satellite map of lines through Montana" />
-        </div>
+  <div class="flex flex-col gap-2 items-start">
+    <div class="flex gap-4 flex-wrap">
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: var(--color-gold);"></div>
+        <span class="text-sm">Milwaukee Road</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: #453daa;"></div>
+        <span class="text-sm">Great Northern</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: #b1193c;"></div>
+        <span class="text-sm">Northern Pacific</span>
+      </div>
+    </div>
+
+    <div class="flex gap-4 flex-wrap opacity-60">
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: var(--color-offwhite);"></div>
+        <span class="text-sm">Other rails</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-box" style="background-color: #30e89c;"></div>
+        <span class="text-sm">Cities</span>
+      </div>
+    </div>
+  </div>
+
+      <div class="relative w-full flex justify-center"
+        style="
+          width: 100vw;
+          position: relative;
+          left: 50%;
+          right: 50%;
+          margin-left: -50vw;
+          margin-right: -50vw;
+          padding-left: 2rem;
+          padding-right: 2rem;
+        "
+      >
+        <img 
+          src="{base}/images/northwest-rail-satellite.png" 
+          alt="Satellite map of lines through Montana"
+          style="max-width: 1500px; width: 100%;"
+        />
       </div>
           
           <p>
@@ -97,3 +134,19 @@
     </div>
   </div>
 </div>
+
+<style>
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .legend-box {
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+  }
+
+</style>
