@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import favicon from '$lib/assets/favicon.svg';
 
   $: path = $page.url.pathname;
 
@@ -14,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={`${base}/favicon.svg`} />
+	<link rel="icon" href={favicon} />
 	<title>Railtowns</title>
 </svelte:head>
 
