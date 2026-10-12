@@ -1,43 +1,124 @@
 <script>
-	import { page } from '$app/stores';
-	import { base } from '$app/paths';
-	import favicon from '$lib/assets/favicon.svg';
+  import "../app.css";
+  import { base } from "$app/paths";
+  import favicon from "$lib/assets/favicon.svg";
 
-  $: path = $page.url.pathname;
+  let { children } = $props();
 
-  $: theme =
-  	path === `${base}/` ? 'railtheme' :
-    path.startsWith(`${base}/gridtowns`) ? 'railtheme' :
-    path.startsWith(`${base}/railtowns`) ? 'railtheme' :
-    path.startsWith(`${base}/ghosttowns`) ? 'railtheme' :
-    'railtheme';
+  const theme = "railtheme";
 
+  const links = [
+    { href: "", label: "Intro", short: "Intro" },
+    { href: "/templatetowns", label: "Template towns", short: "Templates" },
+    { href: "/arterytowns", label: "Artery towns", short: "Arteries" },
+    { href: "/ghosttowns", label: "Ghost towns", short: "Ghosts" },
+  ];
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
-	<title>Railtowns</title>
+  <title>Railtowns</title>
+  <link rel="icon" href={favicon} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Zen+Kaku+Gothic+New&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet"
+  />
 </svelte:head>
 
-<style></style>
+<div data-theme={theme} class="site">
+  <header>
+    <nav class="nav">
+      {#each links as { href, label, short }}
+        <a href={`${base}${href}/`} class="btn btn-soft btn-primary nav-link">
+          <span class="label-short">{short}</span>
+          <span class="label-full">{label}</span>
+        </a>
+      {/each}
+    </nav>
+  </header>
 
-<div data-theme={theme} class="min-h-screen">
-	<header class="navbar bg-base-200 border-base-300 fixed top-0 left-0 right-0 z-50">
-	<div class="flex-1 px-4 font-inconsolata">
-		<a href={`${base}/`} class="btn btn-soft btn-primary text-lg font-light">Intro</a>
-		<a href={`${base}/gridtowns`} class="btn btn-soft btn-primary text-lg font-light">Template towns</a>
-		<a href={`${base}/arterytowns`} class="btn btn-soft btn-primary text-lg font-light">Artery towns</a>
-		<a href={`${base}/ghosttowns`} class="btn btn-soft btn-primary text-lg font-light">Ghost towns</a>
-	</div>
-	</header>
+  <main>
+    {@render children()}
+  </main>
 
-	<main class="pt-16 px-6 pb-20">
-	<slot />
-	</main>
+  
 </div>
 
-<footer data-theme={theme} class="footer sm:footer-horizontal bg-base-300 text-base-content p-4">
-  <aside>
-    <p>See the code for this project on <a href="http://github.com/var-iane/railtowns">GitHub</a></p>
-  </aside>
-</footer>
+<style>
+  .site {
+    --navbar-height: 2rem;
+    min-height: 100dvh;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    height: var(--navbar-height);
+    background-color: var(--color-base-200);
+    font-family: var(--font-main);
+  }
+
+  main {
+    padding: var(--navbar-height) 0;
+  }
+
+  .nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+    padding-inline: 1rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    height: 1.2rem;
+    padding-inline: 0.7rem;
+    font-size: 0.85rem;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+  .label-full {
+    display: none;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: var(--font-main);
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-base-300);
+    color: var(--color-base-content);
+  }
+
+  @media (min-width: 560px) {
+    .site {
+      --navbar-height: 3rem;
+    }
+    .nav-link {
+      height: 2rem;
+      font-size: 1rem;
+    }
+    .label-short {
+      display: none;
+    }
+    .label-full {
+      display: inline;
+    }
+  }
+</style>

@@ -1,35 +1,30 @@
 
 @import url('@fontsource-variable/inconsolata');
-@import url('@fontsource/m-plus-rounded-1c/300.css');
-@import url('@fontsource/reddit-sans/300.css');
-@import url('@fontsource-variable/space-grotesk');
-@import url('@fontsource/krub/200.css');
-@import url('@fontsource/krub/300.css');
-@import url('@fontsource/krub/400.css');
-@import url('@fontsource/krub/500.css');
-@import url('@fontsource-variable/rethink-sans');
-@import url('@fontsource/young-serif');
-@import url('https://fonts.googleapis.com/css2?family=Antic&family=Antic+Didone&family=Antic+Slab&family=BBH+Sans+Bogle&family=Boldonse&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Italiana&family=Matangi:wght@300..900&family=Rubik+Doodle+Shadow&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&family=Exo:ital,wght@0,100..900;1,100..900&family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Momo+Trust+Display&family=Oxanium:wght@200..800&family=Protest+Strike&display=swap');
-
+/* @import url("@fontsource-variable/victor-mono"); */
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
 
-/* @import '@skeletonlabs/skeleton';
-@import '@skeletonlabs/skeleton/optional/presets';
-@import '@skeletonlabs/skeleton/themes/cerberus';
-@import '@skeletonlabs/skeleton/themes/nouveau';
+@font-face {
+  font-family: 'Hibana';
+  src: url('/fonts/Hibana-45SubMedium.woff2') format('woff2');
+  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
+}
 
-@source '../node_modules/@skeletonlabs/skeleton-svelte/dist'; */
+@font-face {
+  font-family: 'Violet Sans';
+  src: url('/fonts/VioletSans-Regular.woff2') format('woff2');
+  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
+}
 
-@theme {
-  --font-sans: 'Krub', 'M PLUS Rounded 1c', 'Reddit Sans', sans-serif;
-  --font-heading: 'Do Hyeon', 'Kulim Park', 'Exo', 'Oxanium', 'Momo Trust Display', 'Boldonse', 'BBH Sans Bogle', 'Young Serif', 'Matangi', serif;
-  --font-inconsolata: 'Inconsolata Variable', monospace;
-  --color-gold: oklch(0.7839 0.1719 68.09);
-  --color-blue: oklch(0.4511 0.157 271.6);
-  --color-pink: oklch(0.5737 0.2178 7.85);
-  --color-offwhite: oklch(0.8 0 0);
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/GeneralSans-Variable.ttf') format('truetype');
+  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
 }
 
 @plugin "daisyui" {
@@ -38,9 +33,6 @@
 
 @plugin "daisyui/theme" {
   name: "railtheme";
-  /* default: true; set as default */
-  /* prefersdark: true; set as default dark mode (prefers-color-scheme:dark) */
-  /* color-scheme: light; color of browser-provided UI */
 
   --color-base-100: oklch(0.18 0.0242 273.42);
   --color-base-200: oklch(0.15 0.0242 273.42);
@@ -63,96 +55,138 @@
   --color-error: oklch(65% 0.3 30);
   --color-error-content: oklch(98% 0.01 30);
 
-  /* border radius */
   --radius-selector: 1rem;
   --radius-field: 0.25rem;
   --radius-box: 0.5rem;
-
-  /* base sizes */
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
-
-  /* border size */
   --border: 1px;
-
-  /* effects */
   --depth: 1;
   --noise: 0;
 }
 
+@theme {
+  /* --font-sans: 'General Sans', 'Reddit Sans', sans-serif; */
+  --font-heading: 'Violet Sans', 'Hibana', sans-serif;
+  --font-main: 'Victor Mono', 'Zen Kaku Gothic New', 'Atkinson Hyperlegible Next', 'Inconsolata Variable', monospace;
+  --font-mono: 'Inconsolata Variable', monospace;
+  --color-gold: oklch(0.7839 0.1719 68.09);
+  --color-blue: oklch(0.4511 0.157 271.6);
+  --color-pink: oklch(0.5737 0.2178 7.85);
+  --color-offwhite: oklch(0.8 0 0);
+}
+
+/* resets */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+	line-height: 1.5;
+}
+
 p {
-  font-family: var(--font-inconsolata);
-  font-weight: 300;
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+
+p, figcaption {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.625;
+}
+
+h1, h2 {
+  /* font-family: var(--font-heading); */
+  /* font-weight: 700; */
+  /* line-height: 1.1; */
 }
 
 h1 {
   font-family: var(--font-heading);
-  font-size: 3rem;
-  /* letter-spacing: .15rem; */
-  /* font-weight: 600; */
+  font-size: clamp(1.75rem, 7vw, 3rem);
+  letter-spacing: -0.05rem;
+  font-weight: 400;
 }
 
-/* layout classes */
-
-.page-container {
-  @apply w-full min-h-screen;
+h2 {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
-.narrative-section {
-  @apply w-full py-12 px-4;
+/* shared layouts */
+
+.page {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.narrative-content {
-  @apply max-w-3xl mx-auto space-y-6;
-}
-
-.scrolly-container {
-  @apply fixed inset-0 z-10;
-  top: 4rem; /* navbar height */
-  height: calc(100vh - 4rem);
-}
-
-.scroll-triggers {
-  margin-top: calc(100vh - 4rem);
-}
-
-.two-panel-grid {
-  @apply grid grid-cols-[1fr_400px];
-}
-
-.three-panel-grid {
-  @apply grid grid-cols-[300px_1fr_300px];
-}
-
-.chart-container {
-  @apply w-full h-[600px] bg-base-200 rounded-lg p-4;
-}
-
-
- /* svg classes */
-
-.masked-svg {
-    /* mask: radial-gradient(ellipse, black 70%, transparent 80%); */
-    font-family: 'Inconsolata Variable', monospace;
+@media (max-width: 400px) {
+  p {
+    font-size: 0.8rem;
   }
+}
+
+.map-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-block: 1.5rem;
+  font-family: var(--font-heading);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+}
+ 
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+ 
+.legend-box {
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+}
+
+
+/* TEMPLATE TOWNS */
 
 .labels {
   font-size:16px; 
-}
-
-/* GRIDTOWNS */
-
-.town-label {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--color-offwhite);
-  z-index: 10;
-  /* background: rgba(255,255,255,0.8); */
-  /* padding: 2px 6px;
-  border-radius: 3px; */
 }
 
 #illinois {
@@ -161,99 +195,41 @@ h1 {
   opacity: 0.5;
 }
 
-#railroad {
+#railroad, #rail {
   stroke: var(--color-gold);
-  /* stroke-width: 4;
-  fill: none;
-  opacity: 0.7; */
+}
+
+.text-rail {
+  color: var(--color-gold);
 }
 
 #oak {
   stroke: var(--color-pink); 
-  /* stroke-width: 5; */
-  /* opacity: 0.7; */
 }
 
 .text-oak {
-  color: var(--color-pink);
+  color: var(--color-pink); 
 }
 
 #chestnut {
   stroke: var(--color-blue);
-  /* stroke-width: 5; */
-  /* opacity: 0.7; */
 }
 
 .text-chestnut {
   color: var(--color-blue);
 }
 
-#rail {
-  stroke: var(--color-gold);
-  /* stroke-width: 2; */
-  opacity: 1;
-}
-
-.text-rail {
-  color: var(--color-gold);
-  opacity: 1;
-}
-
 #grid {
   stroke: var(--color-offwhite);
-  opacity: 1;
 }
 
 .text-grid {
   color: var(--color-offwhite);
-  opacity: 1;
 }
 
 #allpaths {
   stroke: var(--color-offwhite);
-  /* stroke-width: 4; */
   opacity: 0.1;
-}
-
-.text-allpaths {
-  color: var(--color-offwhite);
-  opacity: 0.1;
-}
-
-/* champaign specific */
-
-.town03 .chestnut {
-  stroke-width: 2;
-}
-
-.town03 .oak {
-  stroke-width: 2;
-}
-
-.town03 .rail {
-  stroke-width: 1.5;
-}
-
-.town03 .grid {
-  stroke-width: 0.75;
-}
-
-/* centralia specific */
-
-.town07 .chestnut {
-  stroke-width: 3;
-}
-
-.town07 .oak {
-  stroke-width: 3;
-}
-
-.town07 .rail {
-  stroke-width: 2;
-}
-
-.town07 .grid {
-  stroke-width: 0.75;
 }
 
 /* ARTERY TOWNS */

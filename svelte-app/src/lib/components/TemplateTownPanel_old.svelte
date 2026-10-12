@@ -18,7 +18,7 @@
     });
   });
 
-  // Reactive statement to handle town changes
+  // handle town changes
   $effect(() => {
   if (currentTownIndex !== previousIndex && townElements.length > 0) {
     // Kill all existing animations on town elements first
