@@ -94,8 +94,7 @@
         </div>
   
         <p>
-          Today, these street grids still define the small towns, and old downtowns
-          of big cities, along the Illinois Central.
+          Today, these templates still define the small towns and old downtowns along the Illinois Central.
         </p>
         <p class="text-rail">
           Scroll to visit template towns along the line ↓

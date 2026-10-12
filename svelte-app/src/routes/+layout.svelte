@@ -85,25 +85,13 @@
   .nav-link {
     height: 1.2rem;
     padding-inline: 0.7rem;
-    font-size: 0.85rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 400;
     white-space: nowrap;
   }
 
   .label-full {
     display: none;
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-family: var(--font-main);
-    font-size: 0.7rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--color-base-300);
-    color: var(--color-base-content);
   }
 
   @media (min-width: 560px) {
@@ -112,7 +100,7 @@
     }
     .nav-link {
       height: 2rem;
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
     .label-short {
       display: none;
