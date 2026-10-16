@@ -129,12 +129,12 @@
         const pop = (scale, opacity) =>
           gsap.to(marker, { scale, opacity, duration: 0.3 });
         const activate = () => {
-          pop(1.2, 1);
+          pop(2, 1);
           updateTownIndex(i);
         };
 
         const triggerAt = scrollWhenRailReaches(townPositions[i]);
-        gsap.set(marker, { scale: 0.5, opacity: 0 });
+        gsap.set(marker, { scale: 0.5, opacity: 0, transformOrigin: "50% 50%", });
 
         ScrollTrigger.create({
           trigger: "#scroll-container",
@@ -142,9 +142,9 @@
           end: `${(triggerAt + 0.05) * 100}% bottom`,
           onEnter: activate,
           onEnterBack: activate,
-          onLeave: () => pop(0.8, 0.6),
+          onLeave: () => pop(1, 0.6),
           onLeaveBack: () => {
-            pop(0.5, 0.3);
+            pop(0.5, 0);
             updateTownIndex(i - 1);
           },
         });

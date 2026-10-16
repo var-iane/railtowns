@@ -65,7 +65,7 @@
 }
 
 @theme {
-  /* --font-sans: 'General Sans', 'Reddit Sans', sans-serif; */
+  --font-sans: 'General Sans', 'Reddit Sans', sans-serif;
   --font-heading: 'Violet Sans', 'Hibana', sans-serif;
   --font-main: 'Victor Mono', 'Zen Kaku Gothic New', 'Atkinson Hyperlegible Next', 'Inconsolata Variable', monospace;
   --font-mono: 'Inconsolata Variable', monospace;

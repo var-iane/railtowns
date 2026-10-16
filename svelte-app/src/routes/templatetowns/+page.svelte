@@ -57,20 +57,20 @@
       <div class="narrative-content">
         <h1>Template towns</h1>
         <p>
-          The Illinois Central Railroad gets tapped first. It gets free land, the directive to start building... and a deadline.
+          The Illinois Central Railroad gets tapped first. It gets free land, the directive to start building, and a deadline.
         </p>
         <p>
-          The company needs to fill the growing rail with customers, fast. So it simply makes town templates. Every few miles of new track, it stamps down a pre-designed town, <span
+          The company immediately needs customers to use the rail. So it builds new towns along the line--with town templates. Every few miles of new track, it stamps down a pre-designed town, <span
             class="text-grid font-bold">street grid</span
           > angled along the
           <span class="text-rail font-bold">tracks</span>.
         </p>
         <p>
           Here's one template. Streets parallel to the tracks are named for
-          trees, always in this same order. <span class="text-chestnut font-bold"
-            >Chestnut Street</span
+          trees, always in this order. <span class="text-chestnut font-bold"
+            >Chestnut</span
           >
-          and <span class="text-oak font-bold">Oak Street</span> always sandwich the
+          and <span class="text-oak font-bold">Oak</span> always sandwich the
           tracks. Cross streets are numbered or named after presidents.
         </p>
   
